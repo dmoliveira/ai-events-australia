@@ -1497,5 +1497,726 @@
     ],
     "confidence": "high",
     "status": "upcoming"
+  },
+  {
+    "id": "melbourne-generative-ai-society-workplace-2026-05-05",
+    "title": "Generative AI for Society and Workplace | Melbourne",
+    "summary": "Melbourne event on generative AI use across workplace and society contexts.",
+    "topics": [
+      "generative-ai",
+      "ai",
+      "innovation"
+    ],
+    "emoji": "✨🤖🚀",
+    "start": "2026-05-05T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-melbourne-tickets-1147869541699",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-implementation-business-2026-04-28",
+    "title": "AI Implementation in Business | Melbourne",
+    "summary": "Melbourne event on practical AI implementation in business settings.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-28T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/ai-implementation-in-business-melbourne-tickets-1027635404157",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-editing-proofreading-2026-05-29",
+    "title": "AI-Powered Editing & Proofreading Mastery: 1 Day Course in Melbourne",
+    "summary": "Melbourne course on AI-supported editing and proofreading workflows.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-05-29T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-course-in-melbourne-tickets-1980070957536",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-prompt-engineer-healthcare-2026-04-23",
+    "title": "Prompt Engineer for Healthcare & Medical AI: 1 Day Session, Melbourne",
+    "summary": "Melbourne session on prompt engineering for healthcare and medical AI workflows.",
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "🤖🏥🎓",
+    "start": "2026-04-23T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day-session-melbourne-tickets-1977364244685",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-essential-human-skills-ai-2026-04-28",
+    "title": "Essential Human Skills for AI & Remote Work: 1 Day Training in Melbourne",
+    "summary": "Melbourne training event on the human skills needed alongside AI and remote work.",
+    "topics": [
+      "ai",
+      "careers",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-28T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day-training-in-melbourne-tickets-1979843323677",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-intro-ai-digital-marketing-2026-04-30",
+    "title": "Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Melbourne",
+    "summary": "Melbourne workshop on AI in digital marketing and leadership decision-making.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-30T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-day-workshop-in-melbourne-tickets-1975981160844",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-data-in-schools-2026-06-18",
+    "title": "Data in Schools MEL2026",
+    "summary": "Melbourne event focused on data in schools and education data practice.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-06-18T08:30:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne Connect",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-in-schools-mel2026-tickets-1970040072890",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-implementation-business-2026-04-28",
+    "title": "AI Implementation in Business | Sydney",
+    "summary": "Sydney event on practical AI implementation in business settings.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-28T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/ai-implementation-in-business-sydney-tickets-1246826283979",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-prompt-to-profit-2026-04-19",
+    "title": "Prompt to Profit — Learn Generative AI for Business and Innovation",
+    "summary": "Sydney workshop on using generative AI for business and innovation outcomes.",
+    "topics": [
+      "generative-ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "✨💼🎓",
+    "start": "2026-04-19T13:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "TBD",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-to-profit-learn-generative-ai-for-business-and-innovation-tickets-1845985455189",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-big-data-bootcamp-2026-04-21",
+    "title": "Big Data Bootcamp: 2 Days Workshop in Sydney",
+    "summary": "Sydney bootcamp covering big data foundations and workflows.",
+    "topics": [
+      "data-science",
+      "computer-science",
+      "training"
+    ],
+    "emoji": "📊💻🎓",
+    "start": "2026-04-21T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/big-data-bootcamp-2-days-workshop-in-sydney-tickets-1982493158404",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-ai-copywriting-2026-04-17",
+    "title": "High-Impact AI Copywriting: 1 Day Course in Brisbane",
+    "summary": "Brisbane course on AI-enabled copywriting and content production.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-brisbane-tickets-1978558730424",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-prompt-to-profit-2026-04-19",
+    "title": "Prompt to Profit — Learn Generative AI for Business and Innovation",
+    "summary": "Brisbane workshop on using generative AI for business and innovation outcomes.",
+    "topics": [
+      "generative-ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "✨💼🎓",
+    "start": "2026-04-19T13:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "TBD",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-to-profit-learn-generative-ai-for-business-and-innovation-tickets-1845996247469",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-ai-implementation-business-2026-04-28",
+    "title": "AI Implementation in Business | Brisbane",
+    "summary": "Brisbane event on practical AI implementation in business settings.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-28T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Brisbane",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/ai-implementation-in-business-brisbane-tickets-1027636888597",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-prompt-engineer-healthcare-2026-04-24",
+    "title": "Prompt Engineer for Healthcare & Medical AI: 1 Day Session, Brisbane",
+    "summary": "Brisbane session on prompt engineering for healthcare and medical AI workflows.",
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "🤖🏥🎓",
+    "start": "2026-04-24T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day-session-brisbane-tickets-1977364305868",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-essential-human-skills-ai-2026-04-24",
+    "title": "Essential Human Skills for AI & Remote Work: 1 Day Training in Brisbane",
+    "summary": "Brisbane training event on the human skills needed alongside AI and remote work.",
+    "topics": [
+      "ai",
+      "careers",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-24T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day-training-in-brisbane-tickets-1979843384860",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-intro-python-2026-04-26",
+    "title": "Intro to Python Programming: 1 Day Workshop in Brisbane",
+    "summary": "Brisbane introduction to Python workshop relevant for AI and data newcomers.",
+    "topics": [
+      "python",
+      "computer-science",
+      "training"
+    ],
+    "emoji": "🐍💻🎓",
+    "start": "2026-04-26T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/intro-to-python-programming-1-day-workshop-in-brisbane-tickets-1975577718136",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-generative-ai-society-workplace-2026-05-05",
+    "title": "Generative AI for Society and Workplace | Brisbane",
+    "summary": "Brisbane event on generative AI use across workplace and society contexts.",
+    "topics": [
+      "generative-ai",
+      "ai",
+      "innovation"
+    ],
+    "emoji": "✨🤖🚀",
+    "start": "2026-05-05T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Brisbane",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-brisbane-tickets-1147871106379",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-tech-ai-proficiency-2026-05-05",
+    "title": "Technology & AI Proficiency Enhancement – 1 Day Workshop in Brisbane",
+    "summary": "Brisbane workshop on general technology and AI proficiency development.",
+    "topics": [
+      "ai",
+      "training",
+      "computer-science"
+    ],
+    "emoji": "🤖🎓💻",
+    "start": "2026-05-05T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-workshop-in-brisbane-tickets-1975622716728",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-desci-2026-05-05",
+    "title": "Decrypting DeSci (Decentralized Science) | Brisbane",
+    "summary": "Brisbane talk on decentralized science and adjacent research-tech themes.",
+    "topics": [
+      "computer-science",
+      "innovation"
+    ],
+    "emoji": "💻🚀",
+    "start": "2026-05-05T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Brisbane",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-brisbane-tickets-1835682558949",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-python-regression-2026-05-05",
+    "title": "Python Regression Accelerator: 1 Day Workshop in Brisbane",
+    "summary": "Brisbane Python workshop focused on regression techniques for data analysis.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-05-05T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-regression-accelerator-1-day-workshop-in-brisbane-tickets-1977360523555",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-bioinformatics-visualization-2026-05-07",
+    "title": "Bioinformatics & Data Visualization: 1 Day Step-Up Course in Brisbane",
+    "summary": "Brisbane step-up course on bioinformatics and data visualization.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-05-07T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Spaces Jubilee Place Fortitude Valley",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-step-up-course-in-brisbane-tickets-1976442190797",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-r-data-science-2026-05-07",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Brisbane",
+    "summary": "Brisbane R-focused data science accelerator workshop.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-05-07T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-brisbane-tickets-1977693715140",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-ai-editing-proofreading-2026-05-07",
+    "title": "AI-Powered Editing & Proofreading Mastery: 1 Day Course in Brisbane",
+    "summary": "Brisbane course on AI-supported editing and proofreading workflows.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-05-07T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-course-in-brisbane-tickets-1980071009692",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-data-science-healthcare-claims-2026-05-14",
+    "title": "Data Science for Healthcare Claims: 1 Day Training in Brisbane",
+    "summary": "Brisbane training session on healthcare claims analysis using data science methods.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "📊🏥🎓",
+    "start": "2026-05-14T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-training-in-brisbane-tickets-1977484201479",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-python-data-science-2026-05-19",
+    "title": "Python Essentials for Data Science: 1 Day Session in Brisbane",
+    "summary": "Brisbane training session covering Python essentials for data science.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-05-19T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-brisbane-tickets-1975584391095",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
   }
 ]
