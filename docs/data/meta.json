@@ -1,0 +1,74 @@
+{
+  "site_name": "AI Events Australia",
+  "updated_at": "2026-04-16T13:28:33Z",
+  "event_count": 16,
+  "city_count": 6,
+  "topic_count": 20,
+  "featured_cities": [
+    "Melbourne",
+    "Sydney"
+  ],
+  "city_counts": {
+    "Melbourne": 10,
+    "Sydney": 2,
+    "Adelaide": 1,
+    "Brisbane": 1,
+    "Canberra": 1,
+    "Hobart": 1
+  },
+  "topic_counts": {
+    "machine-learning": 1,
+    "data-science": 5,
+    "generative-ai": 4,
+    "ai-engineering": 1,
+    "python": 2,
+    "computer-science": 2,
+    "data-engineering": 2,
+    "cloud": 1,
+    "ai": 8,
+    "networking": 2,
+    "health-ai": 3,
+    "ethics": 2,
+    "business-ai": 1,
+    "databases": 1,
+    "agents": 2,
+    "training": 3,
+    "creative-ai": 1,
+    "governance": 1,
+    "business-tech": 1,
+    "innovation": 1
+  },
+  "source_counts": {
+    "Meetup": 8,
+    "Eventbrite": 8
+  },
+  "next_event": {
+    "id": "hobart-ethical-ai-governance-2026-04-17",
+    "title": "Ethical AI & Technology Governance Basics \u2013 1 Day Workshop in Hobart",
+    "summary": "Hobart workshop covering ethical AI and technology governance fundamentals.",
+    "topics": [
+      "ai",
+      "ethics",
+      "governance"
+    ],
+    "emoji": "\ud83e\udd16\u2696\ufe0f\ud83c\udfdb\ufe0f",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": "2026-04-17T17:00:00+10:00",
+    "timezone": "Australia/Hobart",
+    "year": 2026,
+    "city": "Hobart",
+    "state": "TAS",
+    "venue_name": "Hobart venue by organizer contact",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-hobart-tickets-1968495490001",
+    "source_url": "https://www.eventbrite.com.au/d/australia--hobart/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  }
+}
