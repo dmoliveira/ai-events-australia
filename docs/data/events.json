@@ -3,7 +3,10 @@
     "id": "melbourne-machine-learning-ai-meetup-2026-04-21",
     "title": "Integrating Bayesian stats with machine learning for time-since-event prediction",
     "summary": "Melbourne meetup on Bayesian statistics and machine learning for time-since-event prediction.",
-    "topics": ["machine-learning", "data-science"],
+    "topics": [
+      "machine-learning",
+      "data-science"
+    ],
     "emoji": "🧠📊",
     "start": "2026-04-21T18:00:00+10:00",
     "end": "2026-04-21T20:00:00+10:00",
@@ -18,7 +21,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/machine-learning-ai-meetup/events/313388763/",
     "source_url": "https://www.meetup.com/find/?keywords=machine%20learning&location=Melbourne%2C%20Victoria%2C%20Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -26,7 +31,10 @@
     "id": "melbourne-being-agile-agentic-systems-2026-04-21",
     "title": "Engineering AI Agentic Systems: Decisions, Tradeoffs, and Production Reality",
     "summary": "Melbourne talk focused on engineering tradeoffs and production reality for AI agentic systems.",
-    "topics": ["generative-ai", "ai-engineering"],
+    "topics": [
+      "generative-ai",
+      "ai-engineering"
+    ],
     "emoji": "✨🛠️",
     "start": "2026-04-21T18:00:00+10:00",
     "end": "2026-04-21T20:00:00+10:00",
@@ -41,7 +49,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/being-agile-melbourne/events/313905933/",
     "source_url": "https://www.meetup.com/find/?keywords=AI&location=Melbourne%2C%20Victoria%2C%20Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -49,7 +59,11 @@
     "id": "melbourne-python-meetup-2026-04-23",
     "title": "Melbourne Python Meetup – April 2026",
     "summary": "Community Python meetup in Melbourne that is highly relevant to AI, ML, and data practitioners.",
-    "topics": ["python", "data-science", "computer-science"],
+    "topics": [
+      "python",
+      "data-science",
+      "computer-science"
+    ],
     "emoji": "🐍📊💻",
     "start": "2026-04-23T17:30:00+10:00",
     "end": "2026-04-23T19:30:00+10:00",
@@ -64,7 +78,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/melbourne-python-user-group/events/314035642/",
     "source_url": "https://www.meetup.com/find/?keywords=AI&location=Melbourne%2C%20Victoria%2C%20Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -72,7 +88,11 @@
     "id": "melbourne-open-lakehouse-2026-04-23",
     "title": "Journey to an Open LakeHouse!",
     "summary": "Data engineering event in Melbourne covering open lakehouse topics relevant to modern AI and analytics stacks.",
-    "topics": ["data-engineering", "data-science", "cloud"],
+    "topics": [
+      "data-engineering",
+      "data-science",
+      "cloud"
+    ],
     "emoji": "🗄️📊☁️",
     "start": "2026-04-23T18:00:00+10:00",
     "end": "2026-04-23T20:00:00+10:00",
@@ -87,7 +107,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/data-engineering-melbourne/events/314159446/",
     "source_url": "https://www.meetup.com/find/?keywords=data%20science&location=Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -95,7 +117,11 @@
     "id": "melbourne-ai-professional-networking-2026-04-23",
     "title": "#AI #Data and #TechProfessionalNetworking",
     "summary": "Australia-relevant networking event around AI, data, and technology professionals.",
-    "topics": ["ai", "data-science", "networking"],
+    "topics": [
+      "ai",
+      "data-science",
+      "networking"
+    ],
     "emoji": "🤖📊🤝",
     "start": "2026-04-23T17:00:00+10:00",
     "end": "2026-04-23T18:30:00+10:00",
@@ -110,7 +136,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/ac-mel/events/313136129/",
     "source_url": "https://www.meetup.com/find/?keywords=data%20science&location=Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "medium",
     "status": "upcoming"
   },
@@ -118,7 +146,11 @@
     "id": "melbourne-high-tech-high-touch-2026-04-24",
     "title": "PANEL: High Tech vs. High Touch: Can AI Co-exist with Person-Centred Care?",
     "summary": "Melbourne panel on AI and person-centred care, relevant to applied AI in healthcare.",
-    "topics": ["ai", "health-ai", "ethics"],
+    "topics": [
+      "ai",
+      "health-ai",
+      "ethics"
+    ],
     "emoji": "🤖🏥⚖️",
     "start": "2026-04-24T13:00:00+10:00",
     "end": "2026-04-24T15:00:00+10:00",
@@ -133,7 +165,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com.au/e/panel-high-tech-vs-high-touch-can-ai-co-exist-with-person-centred-care-registration-1984753503156",
     "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -141,7 +175,10 @@
     "id": "sydney-ai-in-business-2026-04-28",
     "title": "AI in Business",
     "summary": "Sydney business event focused on practical AI applications in business settings.",
-    "topics": ["ai", "business-ai"],
+    "topics": [
+      "ai",
+      "business-ai"
+    ],
     "emoji": "🤖💼",
     "start": "2026-04-28T10:00:00+10:00",
     "end": "2026-04-28T12:00:00+10:00",
@@ -156,7 +193,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com.au/e/ai-in-business-tickets-1983233670295",
     "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -164,7 +203,11 @@
     "id": "melbourne-mongodb-user-group-2026-04-30",
     "title": "Melbourne MongoDB User Group #1 2026",
     "summary": "Melbourne database community event with relevance to data systems used in AI and analytics platforms.",
-    "topics": ["data-engineering", "databases", "computer-science"],
+    "topics": [
+      "data-engineering",
+      "databases",
+      "computer-science"
+    ],
     "emoji": "🍃🗄️💻",
     "start": "2026-04-30T17:00:00+10:00",
     "end": "2026-04-30T19:00:00+10:00",
@@ -179,7 +222,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/mongodb-usergroup-melbourne/events/313755220/",
     "source_url": "https://www.meetup.com/find/?keywords=data%20science&location=Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -187,7 +232,11 @@
     "id": "melbourne-autonomous-ai-agents-2026-05-01",
     "title": "Build Autonomous AI Agents: 2-Hour Masterclass",
     "summary": "Generative AI and agent-building masterclass tied to the Melbourne AI community.",
-    "topics": ["generative-ai", "agents", "ai"],
+    "topics": [
+      "generative-ai",
+      "agents",
+      "ai"
+    ],
     "emoji": "✨🤖🧩",
     "start": "2026-05-01T15:30:00+10:00",
     "end": "2026-05-01T17:30:00+10:00",
@@ -202,7 +251,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/ai-australia-community-giofai/events/313487337/",
     "source_url": "https://www.meetup.com/find/?keywords=AI&location=Melbourne%2C%20Victoria%2C%20Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "medium",
     "status": "upcoming"
   },
@@ -210,7 +261,11 @@
     "id": "adelaide-ai-powered-agent-2026-05-05",
     "title": "The AI-Powered Agent",
     "summary": "Adelaide event focused on AI-powered agents and practical deployment ideas.",
-    "topics": ["agents", "generative-ai", "ai"],
+    "topics": [
+      "agents",
+      "generative-ai",
+      "ai"
+    ],
     "emoji": "🤖✨🛠️",
     "start": "2026-05-05T09:00:00+09:30",
     "end": "2026-05-05T11:00:00+09:30",
@@ -225,7 +280,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com.au/e/the-ai-powered-agent-registration-1986793535949",
     "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -233,7 +290,11 @@
     "id": "brisbane-ai-skills-healthcare-2026-05-05",
     "title": "AI Skills for Healthcare: 1 Day Beginner to Intermediate Course, Brisbane",
     "summary": "Brisbane healthcare-focused AI skills course for beginner to intermediate participants.",
-    "topics": ["ai", "health-ai", "training"],
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
     "emoji": "🤖🏥🎓",
     "start": "2026-05-05T09:00:00+10:00",
     "end": "2026-05-05T17:00:00+10:00",
@@ -248,7 +309,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-brisbane-tickets-1977357179553",
     "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -256,7 +319,11 @@
     "id": "melbourne-genesis-generative-ai-2026-05-05",
     "title": "GENESIS - The Generative AI Filmmaker's Networking Event",
     "summary": "Melbourne networking event at the intersection of generative AI and filmmaking.",
-    "topics": ["generative-ai", "creative-ai", "networking"],
+    "topics": [
+      "generative-ai",
+      "creative-ai",
+      "networking"
+    ],
     "emoji": "✨🎬🤝",
     "start": "2026-05-05T17:00:00+10:00",
     "end": "2026-05-05T19:00:00+10:00",
@@ -271,7 +338,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.meetup.com/moviemutuals/events/314159196/",
     "source_url": "https://www.meetup.com/find/?keywords=AI&location=Melbourne%2C%20Victoria%2C%20Australia",
-    "discovered_from": ["meetup"],
+    "discovered_from": [
+      "meetup"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -279,7 +348,11 @@
     "id": "canberra-ai-skills-healthcare-2026-05-08",
     "title": "AI Skills for Healthcare: 1 Day Beginner to Intermediate Course, Canberra",
     "summary": "Canberra AI skills course for healthcare applications.",
-    "topics": ["ai", "health-ai", "training"],
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
     "emoji": "🤖🏥🎓",
     "start": "2026-05-08T09:00:00+10:00",
     "end": "2026-05-08T17:00:00+10:00",
@@ -294,7 +367,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-canberra-tickets-1977357998001",
     "source_url": "https://www.eventbrite.com.au/d/australia--canberra/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -302,7 +377,11 @@
     "id": "hobart-ethical-ai-governance-2026-04-17",
     "title": "Ethical AI & Technology Governance Basics – 1 Day Workshop in Hobart",
     "summary": "Hobart workshop covering ethical AI and technology governance fundamentals.",
-    "topics": ["ai", "ethics", "governance"],
+    "topics": [
+      "ai",
+      "ethics",
+      "governance"
+    ],
     "emoji": "🤖⚖️🏛️",
     "start": "2026-04-17T09:00:00+10:00",
     "end": "2026-04-17T17:00:00+10:00",
@@ -317,7 +396,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-hobart-tickets-1968495490001",
     "source_url": "https://www.eventbrite.com.au/d/australia--hobart/ai/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "medium",
     "status": "upcoming"
   },
@@ -325,7 +406,11 @@
     "id": "melbourne-python-data-science-2026-05-21",
     "title": "Python Essentials for Data Science: 1 Day Session in Melbourne",
     "summary": "Melbourne training session covering Python essentials for data science.",
-    "topics": ["python", "data-science", "training"],
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
     "emoji": "🐍📊🎓",
     "start": "2026-05-21T09:00:00+10:00",
     "end": "2026-05-21T17:00:00+10:00",
@@ -340,7 +425,9 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-melbourne-tickets-1975583409158",
     "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/data-science/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "high",
     "status": "upcoming"
   },
@@ -348,7 +435,10 @@
     "id": "sydney-capital-2026-2026-05-21",
     "title": "Capital 2026",
     "summary": "Sydney conference-style event surfaced from machine-learning and data-science discovery pages; included as a lower-confidence adjacent business-tech item.",
-    "topics": ["business-tech", "innovation"],
+    "topics": [
+      "business-tech",
+      "innovation"
+    ],
     "emoji": "💼🚀",
     "start": "2026-05-21T08:30:00+10:00",
     "end": "2026-05-21T16:30:00+10:00",
@@ -363,8 +453,1049 @@
     "source_tier": "community",
     "canonical_url": "https://www.eventbrite.com.au/e/capital-2026-tickets-1983329476855",
     "source_url": "https://www.eventbrite.com.au/d/australia--sydney/machine-learning/",
-    "discovered_from": ["eventbrite"],
+    "discovered_from": [
+      "eventbrite"
+    ],
     "confidence": "low",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-business-innovation-ai-2026-04-17",
+    "title": "Business Innovation with AI: 1 Day Session in Melbourne",
+    "summary": "Melbourne workshop on business innovation using AI tools and practical workflows.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-melbourne-tickets-1979499169302",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-tools-education-2026-04-17",
+    "title": "AI Tools for Modern Education: 1 Day Training in Melbourne",
+    "summary": "Melbourne training session covering practical AI tools for modern education use cases.",
+    "topics": [
+      "ai",
+      "training"
+    ],
+    "emoji": "🤖🎓",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in-melbourne-tickets-1979507987678",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-empowering-hr-ai-2026-04-21",
+    "title": "Empowering Modern HR Teams with AI | Melbourne",
+    "summary": "Melbourne event on applying AI to modern HR workflows and operations.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-21T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-melbourne-tickets-1979502855327",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-copywriting-2026-04-21",
+    "title": "High-Impact AI Copywriting: 1 Day Course in Melbourne",
+    "summary": "Melbourne course on AI-assisted copywriting and content workflow improvement.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-04-21T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-melbourne-tickets-1978558692310",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-human-plus-ai-content-2026-04-23",
+    "title": "Human + AI: Creating Content that Converts Workshop",
+    "summary": "Sunshine workshop on combining human strategy and AI assistance for content that converts.",
+    "topics": [
+      "generative-ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "✨💼🎓",
+    "start": "2026-04-23T10:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "iHarvest Coworking Sunshine",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/human-ai-creating-content-that-converts-workshop-tickets-1976528370563",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-april-ai-showcase-2026-04-26",
+    "title": "April AI Showcase",
+    "summary": "Camberwell AI showcase event featuring community discussion and demonstrations.",
+    "topics": [
+      "ai",
+      "innovation",
+      "networking"
+    ],
+    "emoji": "🤖🚀🤝",
+    "start": "2026-04-26T13:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Camberwell Community Centre",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/april-ai-showcase-tickets-1986144786522",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-skills-healthcare-2026-05-04",
+    "title": "AI Skills for Healthcare: 1 Day Beginner to Intermediate Course, Melbourne",
+    "summary": "Melbourne beginner-to-intermediate healthcare AI training course.",
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "🤖🏥🎓",
+    "start": "2026-05-04T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-melbourne-tickets-1977358672017",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-tech-ai-proficiency-2026-05-04",
+    "title": "Technology & AI Proficiency Enhancement – 1 Day Workshop in Melbourne",
+    "summary": "Melbourne workshop focused on general technology and AI proficiency development.",
+    "topics": [
+      "ai",
+      "training",
+      "computer-science"
+    ],
+    "emoji": "🤖🎓💻",
+    "start": "2026-05-04T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-workshop-in-melbourne-tickets-1975622653539",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-content-curation-ai-2026-05-05",
+    "title": "Content Curation with AI Basics: 1 Day Productivity Training in Melbourne",
+    "summary": "Melbourne productivity training on content curation with AI support.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨🤖🎓",
+    "start": "2026-05-05T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/content-curation-with-ai-basics-1-day-productivity-training-in-melbourne-tickets-1975920004925",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-prompting-tech-writers-2026-05-06",
+    "title": "AI-Powered Prompting for Tech Writers – 1 Day Training in Melbourne",
+    "summary": "Melbourne training on prompting techniques for technical writing with AI tools.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨💻🎓",
+    "start": "2026-05-06T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-training-in-melbourne-tickets-1979216023405",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ethical-ai-governance-2026-05-07",
+    "title": "Ethical AI & Technology Governance Basics – 1 Day Workshop in Melbourne",
+    "summary": "Melbourne workshop on ethical AI and technology governance basics.",
+    "topics": [
+      "ai",
+      "ethics",
+      "governance"
+    ],
+    "emoji": "🤖⚖️🏛️",
+    "start": "2026-05-07T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-melbourne-tickets-1968488500094",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-marketing-innovation-2026-05-12",
+    "title": "Harnessing AI for Marketing Innovation | Melbourne",
+    "summary": "Melbourne event on applying AI to marketing innovation and campaign strategy.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-05-12T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-melbourne-tickets-1052300648567",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "melbourne-ai-cybersecurity-summit-2026-06-19",
+    "title": "National AI & Cybersecurity Leadership Summit 2026",
+    "summary": "Melbourne leadership summit focused on AI and cybersecurity strategy.",
+    "topics": [
+      "ai",
+      "computer-science",
+      "innovation"
+    ],
+    "emoji": "🤖💻🚀",
+    "start": "2026-06-19T07:30:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Melbourne - Pullman Albert Park",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/national-ai-cybersecurity-leadership-summit-2026-tickets-1976332502717",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-empowering-hr-ai-2026-04-21",
+    "title": "Empowering Modern HR Teams with AI | Sydney",
+    "summary": "Sydney event on AI applications for modern HR teams and operations.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-21T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-sydney-tickets-1979458003173",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-editing-proofreading-2026-04-23",
+    "title": "AI-Powered Editing & Proofreading Mastery: 1 Day Course in Sydney",
+    "summary": "Sydney course on AI-supported editing and proofreading workflows.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-04-23T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-course-in-sydney-tickets-1980070922431",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-tools-education-2026-04-24",
+    "title": "AI Tools for Modern Education: 1 Day Training in Sydney",
+    "summary": "Sydney training session on AI tools for education and teaching workflows.",
+    "topics": [
+      "ai",
+      "training"
+    ],
+    "emoji": "🤖🎓",
+    "start": "2026-04-24T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in-sydney-tickets-1979507975642",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-intro-ai-digital-marketing-2026-04-27",
+    "title": "Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Sydney",
+    "summary": "Sydney workshop on AI in digital marketing and leadership decision-making.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-27T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-day-workshop-in-sydney-tickets-1975980999361",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-copywriting-2026-04-29",
+    "title": "High-Impact AI Copywriting: 1 Day Course in Sydney",
+    "summary": "Sydney training course on AI-enabled copywriting and content production.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨📝🎓",
+    "start": "2026-04-29T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-sydney-tickets-1978558661217",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-skills-healthcare-2026-05-01",
+    "title": "AI Skills for Healthcare: 1 Day Beginner to Intermediate Course, Sydney",
+    "summary": "Sydney beginner-to-intermediate healthcare AI training course.",
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "🤖🏥🎓",
+    "start": "2026-05-01T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-sydney-tickets-1977358628888",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-tech-ai-proficiency-2026-05-01",
+    "title": "Technology & AI Proficiency Enhancement – 1 Day Workshop in Sydney",
+    "summary": "Sydney workshop on general technology and AI proficiency development.",
+    "topics": [
+      "ai",
+      "training",
+      "computer-science"
+    ],
+    "emoji": "🤖🎓💻",
+    "start": "2026-05-01T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-workshop-in-sydney-tickets-1975622570290",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-r-data-science-2026-05-02",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Sydney",
+    "summary": "Sydney R-focused data science accelerator workshop.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-05-02T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-sydney-tickets-1977693023070",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-prompting-tech-writers-2026-05-05",
+    "title": "AI-Powered Prompting for Tech Writers – 1 Day Training in Sydney",
+    "summary": "Sydney workshop on prompting techniques for technical writing with AI tools.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨💻🎓",
+    "start": "2026-05-05T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-training-in-sydney-tickets-1979215987297",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-generative-ai-society-workplace-2026-05-05",
+    "title": "Generative AI for Society and Workplace | Sydney",
+    "summary": "Sydney event on generative AI use across workplace and society contexts.",
+    "topics": [
+      "generative-ai",
+      "ai",
+      "innovation"
+    ],
+    "emoji": "✨🤖🚀",
+    "start": "2026-05-05T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-sydney-tickets-1147866743329",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-desci-2026-05-05",
+    "title": "Decrypting DeSci (Decentralized Science) | Sydney",
+    "summary": "Sydney talk on decentralized science and adjacent research-tech themes.",
+    "topics": [
+      "computer-science",
+      "innovation"
+    ],
+    "emoji": "💻🚀",
+    "start": "2026-05-05T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-sydney-tickets-1835672719519",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-business-innovation-ai-2026-05-14",
+    "title": "Business Innovation with AI: 1 Day Session in Sydney",
+    "summary": "Sydney workshop on business innovation using AI tools and practical workflows.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-05-14T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-sydney-tickets-1979499107116",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ai-marketing-innovation-2026-05-12",
+    "title": "Harnessing AI for Marketing Innovation | Sydney",
+    "summary": "Sydney event on using AI to drive marketing innovation and strategy.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-05-12T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-sydney-tickets-1052231391417",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-ethical-ai-governance-2026-05-13",
+    "title": "Ethical AI & Technology Governance Basics – 1 Day Workshop in Sydney",
+    "summary": "Sydney workshop on ethical AI and technology governance fundamentals.",
+    "topics": [
+      "ai",
+      "ethics",
+      "governance"
+    ],
+    "emoji": "🤖⚖️🏛️",
+    "start": "2026-05-13T19:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-sydney-tickets-1968450021002",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-essential-human-skills-ai-2026-05-14",
+    "title": "Essential Human Skills for AI & Remote Work: 1 Day Training in Sydney",
+    "summary": "Sydney training event on the human skills needed alongside AI and remote work.",
+    "topics": [
+      "ai",
+      "careers",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-05-14T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day-training-in-sydney-tickets-1979843304620",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-data-science-healthcare-claims-2026-05-18",
+    "title": "Data Science for Healthcare Claims: 1 Day Training in Sydney",
+    "summary": "Sydney training session on healthcare claims analysis using data science methods.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "📊🏥🎓",
+    "start": "2026-05-18T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-training-in-sydney-tickets-1977484148320",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "sydney-python-data-science-2026-05-20",
+    "title": "Python Essentials for Data Science: 1 Day Session in Sydney",
+    "summary": "Sydney training session covering Python essentials for data science.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-05-20T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-sydney-tickets-1975581522515",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-business-innovation-ai-2026-04-18",
+    "title": "Business Innovation with AI: 1 Day Session in Brisbane",
+    "summary": "Brisbane workshop on business innovation using AI tools and practical workflows.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-18T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-brisbane-tickets-1979499191368",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-ai-masterclass-business-2026-04-22",
+    "title": "AI Masterclass for Brisbane Business",
+    "summary": "Brisbane business-focused AI masterclass for practical adoption.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-22T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Morningside Australian Football Club",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/ai-masterclass-for-brisbane-business-tickets-1982739485174",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-ai-everyday-business-2026-04-24",
+    "title": "AI for Everyday Business - Free Workshop",
+    "summary": "Spring Hill workshop on practical AI applications for everyday business operations.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-24T11:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "88 Leichhardt St",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-for-everyday-business-free-workshop-tickets-1987112255247",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "brisbane-qld-ai-festival-2026-05-29",
+    "title": "Qld AI Festival 2026 - Friday 29th May",
+    "summary": "Queensland AI festival event in Brisbane City.",
+    "topics": [
+      "ai",
+      "innovation",
+      "networking"
+    ],
+    "emoji": "🤖🚀🤝",
+    "start": "2026-05-29T10:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Capri By Fraser, Brisbane",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/qld-ai-festival-2026-friday-29th-may-tickets-1983076567396",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "canberra-python-data-science-2026-05-05",
+    "title": "Python for Data Science: 1-Day Industry Workshop in Canberra",
+    "summary": "Canberra workshop covering Python for data science practice.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-05-05T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Canberra",
+    "state": "ACT",
+    "venue_name": "Regus - Canberra, Gateway Business Center",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-for-data-science-1-day-industry-workshop-in-canberra-tickets-1981084808993",
+    "source_url": "https://www.eventbrite.com.au/d/australia--canberra/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming"
+  },
+  {
+    "id": "adelaide-data-science-analytics-meetup-2026-04-24",
+    "title": "Data Science & Analytics meetup and chat Adelaide Friday",
+    "summary": "Adelaide community meetup and chat focused on data science and analytics.",
+    "topics": [
+      "data-science",
+      "networking"
+    ],
+    "emoji": "📊🤝",
+    "start": "2026-04-24T17:30:00+09:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2026,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Union Hotel",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/data-science-analytics-meetup-and-chat-adelaide-friday-tickets-950989554357",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
     "status": "upcoming"
   }
 ]
