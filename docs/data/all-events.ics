@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Events Australia//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hobart-ethical-ai-governance-2026-04-17@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260416T230000Z
+DTEND:20260417T070000Z
+SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Hobart
+DESCRIPTION:Hobart workshop covering ethical AI and technology governance fundamentals. Source: https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-hobart-tickets-1968495490001
+LOCATION:Hobart venue by organizer contact\, Hobart\, TAS
+URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-hobart-tickets-1968495490001
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-machine-learning-ai-meetup-2026-04-21@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260421T080000Z
+DTEND:20260421T100000Z
+SUMMARY:Integrating Bayesian stats with machine learning for time-since-event prediction
+DESCRIPTION:Melbourne meetup on Bayesian statistics and machine learning for time-since-event prediction. Source: https://www.meetup.com/machine-learning-ai-meetup/events/313388763/
+LOCATION:Melbourne meetup venue\, Melbourne\, VIC
+URL:https://www.meetup.com/machine-learning-ai-meetup/events/313388763/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-being-agile-agentic-systems-2026-04-21@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260421T080000Z
+DTEND:20260421T100000Z
+SUMMARY:Engineering AI Agentic Systems: Decisions\, Tradeoffs\, and Production Reality
+DESCRIPTION:Melbourne talk focused on engineering tradeoffs and production reality for AI agentic systems. Source: https://www.meetup.com/being-agile-melbourne/events/313905933/
+LOCATION:Melbourne meetup venue\, Melbourne\, VIC
+URL:https://www.meetup.com/being-agile-melbourne/events/313905933/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-ai-professional-networking-2026-04-23@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260423T070000Z
+DTEND:20260423T083000Z
+SUMMARY:#AI #Data and #TechProfessionalNetworking
+DESCRIPTION:Australia-relevant networking event around AI\, data\, and technology professionals. Source: https://www.meetup.com/ac-mel/events/313136129/
+LOCATION:Online / Australia community\, Melbourne\, VIC
+URL:https://www.meetup.com/ac-mel/events/313136129/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-python-meetup-2026-04-23@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260423T073000Z
+DTEND:20260423T093000Z
+SUMMARY:Melbourne Python Meetup – April 2026
+DESCRIPTION:Community Python meetup in Melbourne that is highly relevant to AI\, ML\, and data practitioners. Source: https://www.meetup.com/melbourne-python-user-group/events/314035642/
+LOCATION:Melbourne Python venue\, Melbourne\, VIC
+URL:https://www.meetup.com/melbourne-python-user-group/events/314035642/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-open-lakehouse-2026-04-23@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260423T080000Z
+DTEND:20260423T100000Z
+SUMMARY:Journey to an Open LakeHouse!
+DESCRIPTION:Data engineering event in Melbourne covering open lakehouse topics relevant to modern AI and analytics stacks. Source: https://www.meetup.com/data-engineering-melbourne/events/314159446/
+LOCATION:Data Engineering Melbourne venue\, Melbourne\, VIC
+URL:https://www.meetup.com/data-engineering-melbourne/events/314159446/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-high-tech-high-touch-2026-04-24@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260424T030000Z
+DTEND:20260424T050000Z
+SUMMARY:PANEL: High Tech vs. High Touch: Can AI Co-exist with Person-Centred Care?
+DESCRIPTION:Melbourne panel on AI and person-centred care\, relevant to applied AI in healthcare. Source: https://www.eventbrite.com.au/e/panel-high-tech-vs-high-touch-can-ai-co-exist-with-person-centred-care-registration-1984753503156
+LOCATION:Melbourne event venue\, Melbourne\, VIC
+URL:https://www.eventbrite.com.au/e/panel-high-tech-vs-high-touch-can-ai-co-exist-with-person-centred-care-registration-1984753503156
+END:VEVENT
+BEGIN:VEVENT
+UID:sydney-ai-in-business-2026-04-28@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260428T000000Z
+DTEND:20260428T020000Z
+SUMMARY:AI in Business
+DESCRIPTION:Sydney business event focused on practical AI applications in business settings. Source: https://www.eventbrite.com.au/e/ai-in-business-tickets-1983233670295
+LOCATION:Club Five Dock RSL\, Sydney\, NSW
+URL:https://www.eventbrite.com.au/e/ai-in-business-tickets-1983233670295
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-mongodb-user-group-2026-04-30@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260430T070000Z
+DTEND:20260430T090000Z
+SUMMARY:Melbourne MongoDB User Group #1 2026
+DESCRIPTION:Melbourne database community event with relevance to data systems used in AI and analytics platforms. Source: https://www.meetup.com/mongodb-usergroup-melbourne/events/313755220/
+LOCATION:Melbourne MongoDB venue\, Melbourne\, VIC
+URL:https://www.meetup.com/mongodb-usergroup-melbourne/events/313755220/
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-autonomous-ai-agents-2026-05-01@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260501T053000Z
+DTEND:20260501T073000Z
+SUMMARY:Build Autonomous AI Agents: 2-Hour Masterclass
+DESCRIPTION:Generative AI and agent-building masterclass tied to the Melbourne AI community. Source: https://www.meetup.com/ai-australia-community-giofai/events/313487337/
+LOCATION:Melbourne / community-hosted\, Melbourne\, VIC
+URL:https://www.meetup.com/ai-australia-community-giofai/events/313487337/
+END:VEVENT
+BEGIN:VEVENT
+UID:adelaide-ai-powered-agent-2026-05-05@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260504T233000Z
+DTEND:20260505T013000Z
+SUMMARY:The AI-Powered Agent
+DESCRIPTION:Adelaide event focused on AI-powered agents and practical deployment ideas. Source: https://www.eventbrite.com.au/e/the-ai-powered-agent-registration-1986793535949
+LOCATION:Stamford Grand Adelaide Hotel\, Adelaide\, SA
+URL:https://www.eventbrite.com.au/e/the-ai-powered-agent-registration-1986793535949
+END:VEVENT
+BEGIN:VEVENT
+UID:brisbane-ai-skills-healthcare-2026-05-05@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260504T230000Z
+DTEND:20260505T070000Z
+SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Brisbane
+DESCRIPTION:Brisbane healthcare-focused AI skills course for beginner to intermediate participants. Source: https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-brisbane-tickets-1977357179553
+LOCATION:Regus-Brisbane – Spaces Jubilee Place\, Brisbane\, QLD
+URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-brisbane-tickets-1977357179553
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-genesis-generative-ai-2026-05-05@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260505T070000Z
+DTEND:20260505T090000Z
+SUMMARY:GENESIS - The Generative AI Filmmaker's Networking Event
+DESCRIPTION:Melbourne networking event at the intersection of generative AI and filmmaking. Source: https://www.meetup.com/moviemutuals/events/314159196/
+LOCATION:Movie Mutuals venue\, Melbourne\, VIC
+URL:https://www.meetup.com/moviemutuals/events/314159196/
+END:VEVENT
+BEGIN:VEVENT
+UID:canberra-ai-skills-healthcare-2026-05-08@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260507T230000Z
+DTEND:20260508T070000Z
+SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Canberra
+DESCRIPTION:Canberra AI skills course for healthcare applications. Source: https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-canberra-tickets-1977357998001
+LOCATION:Regus - Canberra\, Gateway Business Center\, Canberra\, ACT
+URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-intermediate-course-canberra-tickets-1977357998001
+END:VEVENT
+BEGIN:VEVENT
+UID:sydney-capital-2026-2026-05-21@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260520T223000Z
+DTEND:20260521T063000Z
+SUMMARY:Capital 2026
+DESCRIPTION:Sydney conference-style event surfaced from machine-learning and data-science discovery pages\; included as a lower-confidence adjacent business-tech item. Source: https://www.eventbrite.com.au/e/capital-2026-tickets-1983329476855
+LOCATION:Hilton Sydney\, Sydney\, NSW
+URL:https://www.eventbrite.com.au/e/capital-2026-tickets-1983329476855
+END:VEVENT
+BEGIN:VEVENT
+UID:melbourne-python-data-science-2026-05-21@ai-events-australia
+DTSTAMP:20260416T133113Z
+DTSTART:20260520T230000Z
+DTEND:20260521T070000Z
+SUMMARY:Python Essentials for Data Science: 1 Day Session in Melbourne
+DESCRIPTION:Melbourne training session covering Python essentials for data science. Source: https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-melbourne-tickets-1975583409158
+LOCATION:Regus 120 Collins Street\, Melbourne\, VIC
+URL:https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-melbourne-tickets-1975583409158
+END:VEVENT
+END:VCALENDAR
