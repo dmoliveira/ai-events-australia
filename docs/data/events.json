@@ -25,7 +25,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-being-agile-agentic-systems-2026-04-21",
@@ -53,7 +55,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-python-meetup-2026-04-23",
@@ -82,7 +86,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-open-lakehouse-2026-04-23",
@@ -111,7 +117,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ai-professional-networking-2026-04-23",
@@ -140,7 +148,9 @@
       "meetup"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-high-tech-high-touch-2026-04-24",
@@ -169,7 +179,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-in-business-2026-04-28",
@@ -197,7 +209,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-mongodb-user-group-2026-04-30",
@@ -226,7 +240,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-autonomous-ai-agents-2026-05-01",
@@ -255,7 +271,9 @@
       "meetup"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "adelaide-ai-powered-agent-2026-05-05",
@@ -284,7 +302,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-ai-skills-healthcare-2026-05-05",
@@ -313,7 +333,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-genesis-generative-ai-2026-05-05",
@@ -342,7 +364,9 @@
       "meetup"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "canberra-ai-skills-healthcare-2026-05-08",
@@ -371,7 +395,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "hobart-ethical-ai-governance-2026-04-17",
@@ -400,7 +426,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-python-data-science-2026-05-21",
@@ -429,35 +457,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
-  },
-  {
-    "id": "sydney-capital-2026-2026-05-21",
-    "title": "Capital 2026",
-    "summary": "Sydney conference-style event surfaced from machine-learning and data-science discovery pages; included as a lower-confidence adjacent business-tech item.",
-    "topics": [
-      "business-tech",
-      "innovation"
-    ],
-    "emoji": "💼🚀",
-    "start": "2026-05-21T08:30:00+10:00",
-    "end": "2026-05-21T16:30:00+10:00",
-    "timezone": "Australia/Sydney",
-    "year": 2026,
-    "city": "Sydney",
-    "state": "NSW",
-    "venue_name": "Hilton Sydney",
-    "format": "in-person",
-    "organizer": "Eventbrite organizer",
-    "source_platform": "Eventbrite",
-    "source_tier": "community",
-    "canonical_url": "https://www.eventbrite.com.au/e/capital-2026-tickets-1983329476855",
-    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/machine-learning/",
-    "discovered_from": [
-      "eventbrite"
-    ],
-    "confidence": "low",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "confirmed",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-business-innovation-ai-2026-04-17",
@@ -486,7 +488,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ai-tools-education-2026-04-17",
@@ -514,7 +518,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-empowering-hr-ai-2026-04-21",
@@ -532,7 +538,7 @@
     "year": 2026,
     "city": "Melbourne",
     "state": "VIC",
-    "venue_name": "Melbourne",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -543,7 +549,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "melbourne-ai-copywriting-2026-04-21",
@@ -572,7 +580,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-human-plus-ai-content-2026-04-23",
@@ -601,7 +611,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-april-ai-showcase-2026-04-26",
@@ -630,7 +642,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ai-skills-healthcare-2026-05-04",
@@ -659,7 +673,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-tech-ai-proficiency-2026-05-04",
@@ -688,7 +704,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-content-curation-ai-2026-05-05",
@@ -717,7 +735,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ai-prompting-tech-writers-2026-05-06",
@@ -746,7 +766,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ethical-ai-governance-2026-05-07",
@@ -775,7 +797,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-ai-marketing-innovation-2026-05-12",
@@ -793,7 +817,7 @@
     "year": 2026,
     "city": "Melbourne",
     "state": "VIC",
-    "venue_name": "Melbourne",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -804,7 +828,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "melbourne-ai-cybersecurity-summit-2026-06-19",
@@ -833,7 +859,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-empowering-hr-ai-2026-04-21",
@@ -851,7 +879,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "Sydney",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -862,7 +890,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-ai-editing-proofreading-2026-04-23",
@@ -891,7 +921,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-tools-education-2026-04-24",
@@ -919,7 +951,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-intro-ai-digital-marketing-2026-04-27",
@@ -948,7 +982,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-copywriting-2026-04-29",
@@ -977,7 +1013,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-skills-healthcare-2026-05-01",
@@ -1006,7 +1044,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-tech-ai-proficiency-2026-05-01",
@@ -1035,7 +1075,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-r-data-science-2026-05-02",
@@ -1063,7 +1105,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-prompting-tech-writers-2026-05-05",
@@ -1092,7 +1136,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-generative-ai-society-workplace-2026-05-05",
@@ -1110,7 +1156,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "Sydney",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1121,7 +1167,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-desci-2026-05-05",
@@ -1138,7 +1186,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "Sydney",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1149,7 +1197,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-business-innovation-ai-2026-05-14",
@@ -1178,7 +1228,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-marketing-innovation-2026-05-12",
@@ -1196,7 +1248,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "Sydney",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1207,7 +1259,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-ethical-ai-governance-2026-05-13",
@@ -1236,7 +1290,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-essential-human-skills-ai-2026-05-14",
@@ -1265,7 +1321,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-data-science-healthcare-claims-2026-05-18",
@@ -1294,7 +1352,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-python-data-science-2026-05-20",
@@ -1323,7 +1383,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-business-innovation-ai-2026-04-18",
@@ -1352,7 +1414,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-ai-masterclass-business-2026-04-22",
@@ -1381,7 +1445,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-ai-everyday-business-2026-04-24",
@@ -1410,7 +1476,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-qld-ai-festival-2026-05-29",
@@ -1439,7 +1507,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "canberra-python-data-science-2026-05-05",
@@ -1468,7 +1538,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "adelaide-data-science-analytics-meetup-2026-04-24",
@@ -1496,7 +1568,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-generative-ai-society-workplace-2026-05-05",
@@ -1514,7 +1588,7 @@
     "year": 2026,
     "city": "Melbourne",
     "state": "VIC",
-    "venue_name": "Melbourne",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1525,7 +1599,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "melbourne-ai-implementation-business-2026-04-28",
@@ -1543,7 +1619,7 @@
     "year": 2026,
     "city": "Melbourne",
     "state": "VIC",
-    "venue_name": "Melbourne",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1554,7 +1630,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "melbourne-ai-editing-proofreading-2026-05-29",
@@ -1583,7 +1661,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-prompt-engineer-healthcare-2026-04-23",
@@ -1612,7 +1692,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-essential-human-skills-ai-2026-04-28",
@@ -1641,7 +1723,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-intro-ai-digital-marketing-2026-04-30",
@@ -1670,7 +1754,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "melbourne-data-in-schools-2026-06-18",
@@ -1698,7 +1784,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "sydney-ai-implementation-business-2026-04-28",
@@ -1716,7 +1804,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "Sydney",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1727,7 +1815,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-prompt-to-profit-2026-04-19",
@@ -1745,7 +1835,7 @@
     "year": 2026,
     "city": "Sydney",
     "state": "NSW",
-    "venue_name": "TBD",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1756,7 +1846,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "sydney-big-data-bootcamp-2026-04-21",
@@ -1785,7 +1877,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-ai-copywriting-2026-04-17",
@@ -1814,7 +1908,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-prompt-to-profit-2026-04-19",
@@ -1832,7 +1928,7 @@
     "year": 2026,
     "city": "Brisbane",
     "state": "QLD",
-    "venue_name": "TBD",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1843,7 +1939,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "brisbane-ai-implementation-business-2026-04-28",
@@ -1861,7 +1959,7 @@
     "year": 2026,
     "city": "Brisbane",
     "state": "QLD",
-    "venue_name": "Brisbane",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1872,7 +1970,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "brisbane-prompt-engineer-healthcare-2026-04-24",
@@ -1901,7 +2001,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-essential-human-skills-ai-2026-04-24",
@@ -1930,7 +2032,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-intro-python-2026-04-26",
@@ -1959,7 +2063,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-generative-ai-society-workplace-2026-05-05",
@@ -1977,7 +2083,7 @@
     "year": 2026,
     "city": "Brisbane",
     "state": "QLD",
-    "venue_name": "Brisbane",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -1988,7 +2094,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "brisbane-tech-ai-proficiency-2026-05-05",
@@ -2017,7 +2125,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-desci-2026-05-05",
@@ -2034,7 +2144,7 @@
     "year": 2026,
     "city": "Brisbane",
     "state": "QLD",
-    "venue_name": "Brisbane",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
@@ -2045,7 +2155,9 @@
       "eventbrite"
     ],
     "confidence": "medium",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
   },
   {
     "id": "brisbane-python-regression-2026-05-05",
@@ -2074,7 +2186,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-bioinformatics-visualization-2026-05-07",
@@ -2102,7 +2216,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-r-data-science-2026-05-07",
@@ -2130,7 +2246,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-ai-editing-proofreading-2026-05-07",
@@ -2159,7 +2277,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-data-science-healthcare-claims-2026-05-14",
@@ -2188,7 +2308,9 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   },
   {
     "id": "brisbane-python-data-science-2026-05-19",
@@ -2217,6 +2339,409 @@
       "eventbrite"
     ],
     "confidence": "high",
-    "status": "upcoming"
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "melbourne-bioinformatics-visualization-2026-04-17",
+    "title": "Bioinformatics Data Visualization – 1 Day Workshop Melbourne",
+    "summary": "Melbourne workshop on bioinformatics and data visualization skills.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-workshop-melbourne-tickets-1986891774784",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "melbourne-healthcare-data-security-2026-04-24",
+    "title": "Healthcare Data Security – 1 Day Workshop Melbourne",
+    "summary": "Melbourne workshop on healthcare data security and adjacent data governance practice.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "governance"
+    ],
+    "emoji": "📊🏥🏛️",
+    "start": "2026-04-24T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Melbourne",
+    "year": 2026,
+    "city": "Melbourne",
+    "state": "VIC",
+    "venue_name": "Regus 120 Collins Street",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/healthcare-data-security-1-day-workshop-melbourne-tickets-1983752244364",
+    "source_url": "https://www.eventbrite.com.au/d/australia--melbourne/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "sydney-prompt-engineer-healthcare-2026-04-22",
+    "title": "Prompt Engineer for Healthcare & Medical AI: 1 Day Session, Sydney",
+    "summary": "Sydney session on prompt engineering for healthcare and medical AI workflows.",
+    "topics": [
+      "ai",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "🤖🏥🎓",
+    "start": "2026-04-22T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day-session-sydney-tickets-1977364173472",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "sydney-ai-after-hours-2026-04-21",
+    "title": "AI: After Hours",
+    "summary": "Sydney after-hours event focused on AI discussion and networking.",
+    "topics": [
+      "ai",
+      "networking",
+      "innovation"
+    ],
+    "emoji": "🤖🤝🚀",
+    "start": "2026-04-21T17:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Michael Crouch Innovation Centre",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/ai-after-hours-tickets-1978509429965",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "sydney-prompt-engineering-ai-results-2026-04-17",
+    "title": "Prompt Engineering for Better AI Results: 1 Day Session in Sydney",
+    "summary": "Sydney training on prompt engineering techniques for stronger AI results.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨🤖🎓",
+    "start": "2026-04-17T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Regus - Sydney, Balmain",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-engineering-for-better-ai-results-1-day-session-in-sydney-tickets-1979508224386",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "sydney-tech-mixer-ai-data-2026-04-10",
+    "title": "Sydney Tech Mixer and Social (Tech / AI / Data / IT)",
+    "summary": "Sydney mixer for tech, AI, data, and IT professionals.",
+    "topics": [
+      "ai",
+      "data-science",
+      "networking"
+    ],
+    "emoji": "🤖📊🤝",
+    "start": "2026-04-10T18:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": "Sydney Cidery",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/sydney-tech-mixer-and-social-tech-ai-data-it-tickets-1986013022412",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "brisbane-ai-marketing-innovation-2026-05-12",
+    "title": "Harnessing AI for Marketing Innovation | Brisbane",
+    "summary": "Brisbane event on using AI to drive marketing innovation and strategy.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-05-12T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": null,
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-brisbane-tickets-1052301370727",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
+  },
+  {
+    "id": "brisbane-ai-tools-education-2026-05-29",
+    "title": "AI Tools for Modern Education: 1 Day Training in Brisbane",
+    "summary": "Brisbane training session on AI tools for education and teaching workflows.",
+    "topics": [
+      "ai",
+      "training"
+    ],
+    "emoji": "🤖🎓",
+    "start": "2026-05-29T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in-brisbane-tickets-1979508007738",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "brisbane-content-curation-ai-2026-05-06",
+    "title": "Content Curation with AI Basics: 1 Day Productivity Training in Brisbane",
+    "summary": "Brisbane productivity training on content curation with AI support.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨🤖🎓",
+    "start": "2026-05-06T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Riparian Plaza",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/content-curation-with-ai-basics-1-day-productivity-training-in-brisbane-tickets-1975920065105",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "brisbane-ethical-ai-governance-2026-04-21",
+    "title": "Ethical AI & Technology Governance Basics – 1 Day Workshop in Brisbane",
+    "summary": "Brisbane workshop on ethical AI and technology governance fundamentals.",
+    "topics": [
+      "ai",
+      "ethics",
+      "governance"
+    ],
+    "emoji": "🤖⚖️🏛️",
+    "start": "2026-04-21T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-brisbane-tickets-1968488473013",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "brisbane-ai-prompting-tech-writers-2026-05-07",
+    "title": "AI-Powered Prompting for Tech Writers – 1 Day Training in Brisbane",
+    "summary": "Brisbane workshop on prompting techniques for technical writing with AI tools.",
+    "topics": [
+      "ai",
+      "generative-ai",
+      "training"
+    ],
+    "emoji": "✨💻🎓",
+    "start": "2026-05-07T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-training-in-brisbane-tickets-1979216039453",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "brisbane-empowering-hr-ai-2026-04-21",
+    "title": "Empowering Modern HR Teams with AI | Brisbane",
+    "summary": "Brisbane event on AI applications for modern HR teams and operations.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "innovation"
+    ],
+    "emoji": "🤖💼🚀",
+    "start": "2026-04-21T15:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": null,
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-brisbane-tickets-1979503342785",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
+  },
+  {
+    "id": "brisbane-intro-ai-digital-marketing-2026-04-22",
+    "title": "Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Brisbane",
+    "summary": "Brisbane workshop on AI in digital marketing and leadership decision-making.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-04-22T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane – Spaces Jubilee Place",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-day-workshop-in-brisbane-tickets-1975981337372",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
   }
 ]
