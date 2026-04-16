@@ -1,46 +1,47 @@
 {
   "site_name": "AI Events Australia",
-  "updated_at": "2026-04-16T13:31:13Z",
-  "event_count": 16,
+  "updated_at": "2026-04-16T21:37:46Z",
+  "event_count": 52,
   "city_count": 6,
-  "topic_count": 20,
+  "topic_count": 21,
   "featured_cities": [
     "Melbourne",
     "Sydney"
   ],
   "city_counts": {
-    "Melbourne": 10,
-    "Sydney": 2,
-    "Adelaide": 1,
-    "Brisbane": 1,
-    "Canberra": 1,
+    "Melbourne": 23,
+    "Sydney": 19,
+    "Adelaide": 2,
+    "Brisbane": 5,
+    "Canberra": 2,
     "Hobart": 1
   },
   "topic_counts": {
     "machine-learning": 1,
-    "data-science": 5,
-    "generative-ai": 4,
+    "data-science": 10,
+    "generative-ai": 12,
     "ai-engineering": 1,
-    "python": 2,
-    "computer-science": 2,
+    "python": 4,
+    "computer-science": 6,
     "data-engineering": 2,
     "cloud": 1,
-    "ai": 8,
-    "networking": 2,
-    "health-ai": 3,
-    "ethics": 2,
-    "business-ai": 1,
+    "ai": 37,
+    "networking": 5,
+    "health-ai": 6,
+    "ethics": 4,
+    "business-ai": 12,
     "databases": 1,
     "agents": 2,
-    "training": 3,
+    "training": 24,
     "creative-ai": 1,
-    "governance": 1,
+    "governance": 3,
     "business-tech": 1,
-    "innovation": 1
+    "innovation": 13,
+    "careers": 1
   },
   "source_counts": {
     "Meetup": 8,
-    "Eventbrite": 8
+    "Eventbrite": 44
   },
   "next_event": {
     "id": "hobart-ethical-ai-governance-2026-04-17",
