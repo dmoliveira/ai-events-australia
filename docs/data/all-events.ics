@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:hobart-ethical-ai-governance-2026-04-17@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260416T230000Z
 DTEND:20260417T070000Z
 SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Hobart
@@ -15,7 +15,7 @@ URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-w
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-machine-learning-ai-meetup-2026-04-21@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260421T080000Z
 DTEND:20260421T100000Z
 SUMMARY:Integrating Bayesian stats with machine learning for time-since-event prediction
@@ -25,7 +25,7 @@ URL:https://www.meetup.com/machine-learning-ai-meetup/events/313388763/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-being-agile-agentic-systems-2026-04-21@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260421T080000Z
 DTEND:20260421T100000Z
 SUMMARY:Engineering AI Agentic Systems: Decisions\, Tradeoffs\, and Production Reality
@@ -35,7 +35,7 @@ URL:https://www.meetup.com/being-agile-melbourne/events/313905933/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-professional-networking-2026-04-23@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260423T070000Z
 DTEND:20260423T083000Z
 SUMMARY:#AI #Data and #TechProfessionalNetworking
@@ -45,7 +45,7 @@ URL:https://www.meetup.com/ac-mel/events/313136129/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-python-meetup-2026-04-23@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260423T073000Z
 DTEND:20260423T093000Z
 SUMMARY:Melbourne Python Meetup – April 2026
@@ -55,7 +55,7 @@ URL:https://www.meetup.com/melbourne-python-user-group/events/314035642/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-open-lakehouse-2026-04-23@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260423T080000Z
 DTEND:20260423T100000Z
 SUMMARY:Journey to an Open LakeHouse!
@@ -65,7 +65,7 @@ URL:https://www.meetup.com/data-engineering-melbourne/events/314159446/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-high-tech-high-touch-2026-04-24@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260424T030000Z
 DTEND:20260424T050000Z
 SUMMARY:PANEL: High Tech vs. High Touch: Can AI Co-exist with Person-Centred Care?
@@ -75,7 +75,7 @@ URL:https://www.eventbrite.com.au/e/panel-high-tech-vs-high-touch-can-ai-co-exis
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-in-business-2026-04-28@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260428T000000Z
 DTEND:20260428T020000Z
 SUMMARY:AI in Business
@@ -85,7 +85,7 @@ URL:https://www.eventbrite.com.au/e/ai-in-business-tickets-1983233670295
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-mongodb-user-group-2026-04-30@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260430T070000Z
 DTEND:20260430T090000Z
 SUMMARY:Melbourne MongoDB User Group #1 2026
@@ -95,7 +95,7 @@ URL:https://www.meetup.com/mongodb-usergroup-melbourne/events/313755220/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-autonomous-ai-agents-2026-05-01@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260501T053000Z
 DTEND:20260501T073000Z
 SUMMARY:Build Autonomous AI Agents: 2-Hour Masterclass
@@ -105,7 +105,7 @@ URL:https://www.meetup.com/ai-australia-community-giofai/events/313487337/
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-ai-powered-agent-2026-05-05@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260504T233000Z
 DTEND:20260505T013000Z
 SUMMARY:The AI-Powered Agent
@@ -115,7 +115,7 @@ URL:https://www.eventbrite.com.au/e/the-ai-powered-agent-registration-1986793535
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-skills-healthcare-2026-05-05@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260504T230000Z
 DTEND:20260505T070000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Brisbane
@@ -125,7 +125,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-genesis-generative-ai-2026-05-05@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260505T070000Z
 DTEND:20260505T090000Z
 SUMMARY:GENESIS - The Generative AI Filmmaker's Networking Event
@@ -135,7 +135,7 @@ URL:https://www.meetup.com/moviemutuals/events/314159196/
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-ai-skills-healthcare-2026-05-08@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260507T230000Z
 DTEND:20260508T070000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Canberra
@@ -145,7 +145,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-capital-2026-2026-05-21@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260520T223000Z
 DTEND:20260521T063000Z
 SUMMARY:Capital 2026
@@ -155,7 +155,7 @@ URL:https://www.eventbrite.com.au/e/capital-2026-tickets-1983329476855
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-python-data-science-2026-05-21@ai-events-australia
-DTSTAMP:20260416T132833Z
+DTSTAMP:20260416T133113Z
 DTSTART:20260520T230000Z
 DTEND:20260521T070000Z
 SUMMARY:Python Essentials for Data Science: 1 Day Session in Melbourne
