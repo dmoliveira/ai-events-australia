@@ -1,6 +1,6 @@
 {
   "site_name": "AI Events Australia",
-  "updated_at": "2026-04-17T22:54:25Z",
+  "updated_at": "2026-04-17T23:13:34Z",
   "event_count": 103,
   "city_count": 7,
   "topic_count": 20,
@@ -41,34 +41,34 @@
     "Eventbrite": 95
   },
   "next_event": {
-    "id": "brisbane-business-innovation-ai-2026-04-18",
-    "title": "Business Innovation with AI: 1 Day Session in Brisbane",
-    "summary": "Brisbane workshop on business innovation using AI tools and practical workflows.",
+    "id": "sydney-prompt-to-profit-2026-04-19",
+    "title": "Prompt to Profit \u2014 Learn Generative AI for Business and Innovation",
+    "summary": "Sydney workshop on using generative AI for business and innovation outcomes.",
     "topics": [
-      "ai",
+      "generative-ai",
       "business-ai",
-      "innovation"
+      "training"
     ],
-    "emoji": "\ud83e\udd16\ud83d\udcbc\ud83d\ude80",
-    "start": "2026-04-18T09:00:00+10:00",
+    "emoji": "\u2728\ud83d\udcbc\ud83c\udf93",
+    "start": "2026-04-19T13:00:00+10:00",
     "end": null,
-    "timezone": "Australia/Brisbane",
+    "timezone": "Australia/Sydney",
     "year": 2026,
-    "city": "Brisbane",
-    "state": "QLD",
-    "venue_name": "Regus-Brisbane \u2013 Spaces Jubilee Place",
+    "city": "Sydney",
+    "state": "NSW",
+    "venue_name": null,
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
     "source_tier": "platform",
-    "canonical_url": "https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-brisbane-tickets-1979499191368",
-    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "canonical_url": "https://www.eventbrite.com/e/prompt-to-profit-learn-generative-ai-for-business-and-innovation-tickets-1845985455189",
+    "source_url": "https://www.eventbrite.com.au/d/australia--sydney/ai/",
     "discovered_from": [
       "eventbrite"
     ],
-    "confidence": "high",
+    "confidence": "medium",
     "status": "upcoming",
     "end_status": "unknown",
-    "venue_status": "known"
+    "venue_status": "unknown"
   }
 }
