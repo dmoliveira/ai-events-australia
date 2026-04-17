@@ -44,8 +44,29 @@ body {
   color: var(--text);
   padding-top: var(--topbar-offset);
 }
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: 12px;
+  transform: translateY(-160%);
+  z-index: 140;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--panel-solid);
+  color: var(--text);
+  border: 1px solid var(--accent);
+  text-decoration: none;
+}
+.skip-link:focus { transform: translateY(0); }
 a { color: var(--accent); }
 button, select, input { font: inherit; }
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
 main, .hero, .footer, .shell { max-width: 1240px; margin: 0 auto; padding: 24px; }
 .shell { width: min(1240px, calc(100% - 24px)); }
 
@@ -97,6 +118,10 @@ main, .hero, .footer, .shell { max-width: 1240px; margin: 0 auto; padding: 24px;
 .theme-button.is-active { background: var(--chip-strong); border-color: var(--accent); }
 .topbar-nav a:hover, .theme-button:hover, .button:hover, .top-link:hover { background: var(--chip-strong); }
 .topbar-nav a.is-active { background: var(--chip-strong); border-color: var(--accent); }
+.favorite-button.is-favorite {
+  background: var(--chip-strong);
+  border-color: var(--accent);
+}
 .nav-toggle {
   display: none;
   text-decoration: none;
