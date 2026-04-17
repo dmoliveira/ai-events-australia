@@ -40,7 +40,7 @@ def build_meta(events: list[dict]) -> dict:
         "event_count": len(events),
         "city_count": len(city_counts),
         "topic_count": len(topic_counts),
-        "featured_cities": ["Melbourne", "Sydney"],
+        "featured_scope": "Australia-wide",
         "city_counts": dict(city_counts),
         "topic_counts": dict(topic_counts),
         "source_counts": dict(source_counts),
