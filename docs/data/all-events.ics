@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:adelaide-desci-2025-11-04@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20251104T050000Z
 DTEND:20251104T050000Z
 SUMMARY:Decrypting DeSci (Decentralized Science) | Adelaide
@@ -15,7 +15,7 @@ URL:https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-adela
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-python-data-science-2025-12-12@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20251211T223000Z
 DTEND:20251211T223000Z
 SUMMARY:Python Essentials for Data Science: 1 Day Session in Adelaide
@@ -25,7 +25,7 @@ URL:https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-sessio
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-bioinformatics-visualization-2026-01-10@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260109T223000Z
 DTEND:20260109T223000Z
 SUMMARY:Bioinformatics & Data Visualization: 1 Day Step-Up Course in Adelaide
@@ -35,7 +35,7 @@ URL:https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-step-up
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-data-science-healthcare-2026-03-06@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260305T223000Z
 DTEND:20260305T223000Z
 SUMMARY:Data Science for Healthcare Claims: 1 Day Training in Adelaide
@@ -45,7 +45,7 @@ URL:https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-traini
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-data-science-healthcare-2026-03-09@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260308T220000Z
 DTEND:20260308T220000Z
 SUMMARY:Data Science for Healthcare Claims: 1 Day Training in Canberra
@@ -55,7 +55,7 @@ URL:https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-traini
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-python-regression-2026-03-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260316T223000Z
 DTEND:20260316T223000Z
 SUMMARY:Python Regression Accelerator: 1 Day Workshop in Adelaide
@@ -65,7 +65,7 @@ URL:https://www.eventbrite.com/e/python-regression-accelerator-1-day-workshop-in
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-r-data-science-2026-03-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260323T220000Z
 DTEND:20260323T220000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Canberra
@@ -75,7 +75,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-canbe
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-r-data-science-2026-03-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260327T223000Z
 DTEND:20260327T223000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Adelaide
@@ -85,7 +85,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-adela
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-tech-mixer-ai-data-2026-04-10@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260410T080000Z
 DTEND:20260410T080000Z
 SUMMARY:Sydney Tech Mixer and Social (Tech / AI / Data / IT)
@@ -95,7 +95,7 @@ URL:https://www.eventbrite.com/e/sydney-tech-mixer-and-social-tech-ai-data-it-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:hobart-ethical-ai-governance-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260417T070000Z
 SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Hobart
@@ -105,7 +105,7 @@ URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-w
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-business-innovation-ai-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260416T230000Z
 SUMMARY:Business Innovation with AI: 1 Day Session in Melbourne
@@ -115,7 +115,7 @@ URL:https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-me
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-tools-education-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260416T230000Z
 SUMMARY:AI Tools for Modern Education: 1 Day Training in Melbourne
@@ -125,7 +125,7 @@ URL:https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-copywriting-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260416T230000Z
 SUMMARY:High-Impact AI Copywriting: 1 Day Course in Brisbane
@@ -135,7 +135,7 @@ URL:https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-bris
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-bioinformatics-visualization-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260416T230000Z
 SUMMARY:Bioinformatics Data Visualization – 1 Day Workshop Melbourne
@@ -145,7 +145,7 @@ URL:https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-worksho
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-prompt-engineering-ai-results-2026-04-17@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260416T230000Z
 DTEND:20260416T230000Z
 SUMMARY:Prompt Engineering for Better AI Results: 1 Day Session in Sydney
@@ -155,7 +155,7 @@ URL:https://www.eventbrite.com/e/prompt-engineering-for-better-ai-results-1-day-
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-business-innovation-ai-2026-04-18@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260417T230000Z
 DTEND:20260417T230000Z
 SUMMARY:Business Innovation with AI: 1 Day Session in Brisbane
@@ -165,7 +165,7 @@ URL:https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-br
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-prompt-to-profit-2026-04-19@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260419T030000Z
 DTEND:20260419T030000Z
 SUMMARY:Prompt to Profit — Learn Generative AI for Business and Innovation
@@ -175,7 +175,7 @@ URL:https://www.eventbrite.com/e/prompt-to-profit-learn-generative-ai-for-busine
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-prompt-to-profit-2026-04-19@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260419T030000Z
 DTEND:20260419T030000Z
 SUMMARY:Prompt to Profit — Learn Generative AI for Business and Innovation
@@ -185,7 +185,7 @@ URL:https://www.eventbrite.com/e/prompt-to-profit-learn-generative-ai-for-busine
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-copywriting-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260420T230000Z
 DTEND:20260420T230000Z
 SUMMARY:High-Impact AI Copywriting: 1 Day Course in Melbourne
@@ -195,7 +195,7 @@ URL:https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-melb
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-big-data-bootcamp-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260420T230000Z
 DTEND:20260420T230000Z
 SUMMARY:Big Data Bootcamp: 2 Days Workshop in Sydney
@@ -205,7 +205,7 @@ URL:https://www.eventbrite.com/e/big-data-bootcamp-2-days-workshop-in-sydney-tic
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ethical-ai-governance-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260420T230000Z
 DTEND:20260420T230000Z
 SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Brisbane
@@ -215,7 +215,7 @@ URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-w
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-empowering-hr-ai-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T050000Z
 DTEND:20260421T050000Z
 SUMMARY:Empowering Modern HR Teams with AI | Melbourne
@@ -225,7 +225,7 @@ URL:https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-melbourne
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-empowering-hr-ai-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T050000Z
 DTEND:20260421T050000Z
 SUMMARY:Empowering Modern HR Teams with AI | Sydney
@@ -235,7 +235,7 @@ URL:https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-sydney-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-empowering-hr-ai-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T050000Z
 DTEND:20260421T050000Z
 SUMMARY:Empowering Modern HR Teams with AI | Brisbane
@@ -245,7 +245,7 @@ URL:https://www.eventbrite.com.au/e/empowering-modern-hr-teams-with-ai-brisbane-
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-after-hours-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T070000Z
 DTEND:20260421T070000Z
 SUMMARY:AI: After Hours
@@ -255,7 +255,7 @@ URL:https://www.eventbrite.com.au/e/ai-after-hours-tickets-1978509429965
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-machine-learning-ai-meetup-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T080000Z
 DTEND:20260421T100000Z
 SUMMARY:Integrating Bayesian stats with machine learning for time-since-event prediction
@@ -265,7 +265,7 @@ URL:https://www.meetup.com/machine-learning-ai-meetup/events/313388763/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-being-agile-agentic-systems-2026-04-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T080000Z
 DTEND:20260421T100000Z
 SUMMARY:Engineering AI Agentic Systems: Decisions\, Tradeoffs\, and Production Reality
@@ -275,7 +275,7 @@ URL:https://www.meetup.com/being-agile-melbourne/events/313905933/
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-masterclass-business-2026-04-22@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T230000Z
 DTEND:20260421T230000Z
 SUMMARY:AI Masterclass for Brisbane Business
@@ -285,7 +285,7 @@ URL:https://www.eventbrite.com.au/e/ai-masterclass-for-brisbane-business-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-prompt-engineer-healthcare-2026-04-22@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T230000Z
 DTEND:20260421T230000Z
 SUMMARY:Prompt Engineer for Healthcare & Medical AI: 1 Day Session\, Sydney
@@ -295,7 +295,7 @@ URL:https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-intro-ai-digital-marketing-2026-04-22@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260421T230000Z
 DTEND:20260421T230000Z
 SUMMARY:Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Brisbane
@@ -305,7 +305,7 @@ URL:https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-d
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-editing-proofreading-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260422T230000Z
 DTEND:20260422T230000Z
 SUMMARY:AI-Powered Editing & Proofreading Mastery: 1 Day Course in Sydney
@@ -315,7 +315,7 @@ URL:https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-c
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-prompt-engineer-healthcare-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260422T230000Z
 DTEND:20260422T230000Z
 SUMMARY:Prompt Engineer for Healthcare & Medical AI: 1 Day Session\, Melbourne
@@ -325,7 +325,7 @@ URL:https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-human-plus-ai-content-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T000000Z
 DTEND:20260423T000000Z
 SUMMARY:Human + AI: Creating Content that Converts Workshop
@@ -335,7 +335,7 @@ URL:https://www.eventbrite.com.au/e/human-ai-creating-content-that-converts-work
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-professional-networking-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T070000Z
 DTEND:20260423T083000Z
 SUMMARY:#AI #Data and #TechProfessionalNetworking
@@ -345,7 +345,7 @@ URL:https://www.meetup.com/ac-mel/events/313136129/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-python-meetup-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T073000Z
 DTEND:20260423T093000Z
 SUMMARY:Melbourne Python Meetup – April 2026
@@ -355,7 +355,7 @@ URL:https://www.meetup.com/melbourne-python-user-group/events/314035642/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-open-lakehouse-2026-04-23@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T080000Z
 DTEND:20260423T100000Z
 SUMMARY:Journey to an Open LakeHouse!
@@ -365,7 +365,7 @@ URL:https://www.meetup.com/data-engineering-melbourne/events/314159446/
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-tools-education-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T230000Z
 DTEND:20260423T230000Z
 SUMMARY:AI Tools for Modern Education: 1 Day Training in Sydney
@@ -375,7 +375,7 @@ URL:https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-prompt-engineer-healthcare-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T230000Z
 DTEND:20260423T230000Z
 SUMMARY:Prompt Engineer for Healthcare & Medical AI: 1 Day Session\, Brisbane
@@ -385,7 +385,7 @@ URL:https://www.eventbrite.com/e/prompt-engineer-for-healthcare-medical-ai-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-essential-human-skills-ai-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T230000Z
 DTEND:20260423T230000Z
 SUMMARY:Essential Human Skills for AI & Remote Work: 1 Day Training in Brisbane
@@ -395,7 +395,7 @@ URL:https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-healthcare-data-security-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260423T230000Z
 DTEND:20260423T230000Z
 SUMMARY:Healthcare Data Security – 1 Day Workshop Melbourne
@@ -405,7 +405,7 @@ URL:https://www.eventbrite.com/e/healthcare-data-security-1-day-workshop-melbour
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-everyday-business-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260424T010000Z
 DTEND:20260424T010000Z
 SUMMARY:AI for Everyday Business - Free Workshop
@@ -415,7 +415,7 @@ URL:https://www.eventbrite.com/e/ai-for-everyday-business-free-workshop-tickets-
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-high-tech-high-touch-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260424T030000Z
 DTEND:20260424T050000Z
 SUMMARY:PANEL: High Tech vs. High Touch: Can AI Co-exist with Person-Centred Care?
@@ -425,7 +425,7 @@ URL:https://www.eventbrite.com.au/e/panel-high-tech-vs-high-touch-can-ai-co-exis
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-data-science-analytics-meetup-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260424T080000Z
 DTEND:20260424T080000Z
 SUMMARY:Data Science & Analytics meetup and chat Adelaide Friday
@@ -435,7 +435,7 @@ URL:https://www.eventbrite.com.au/e/data-science-analytics-meetup-and-chat-adela
 END:VEVENT
 BEGIN:VEVENT
 UID:hobart-tech-mixer-ai-data-2026-04-24@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260424T073000Z
 DTEND:20260424T073000Z
 SUMMARY:Hobart Tech Mixer and Social (Tech / AI / Data / IT)
@@ -445,7 +445,7 @@ URL:https://www.eventbrite.com/e/hobart-tech-mixer-and-social-tech-ai-data-it-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-intro-python-2026-04-26@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260425T230000Z
 DTEND:20260425T230000Z
 SUMMARY:Intro to Python Programming: 1 Day Workshop in Brisbane
@@ -455,7 +455,7 @@ URL:https://www.eventbrite.com/e/intro-to-python-programming-1-day-workshop-in-b
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-april-ai-showcase-2026-04-26@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260426T030000Z
 DTEND:20260426T030000Z
 SUMMARY:April AI Showcase
@@ -465,7 +465,7 @@ URL:https://www.eventbrite.com.au/e/april-ai-showcase-tickets-1986144786522
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-intro-ai-digital-marketing-2026-04-27@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260426T230000Z
 DTEND:20260426T230000Z
 SUMMARY:Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Sydney
@@ -475,7 +475,7 @@ URL:https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-d
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-essential-human-skills-ai-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260427T230000Z
 DTEND:20260427T230000Z
 SUMMARY:Essential Human Skills for AI & Remote Work: 1 Day Training in Melbourne
@@ -485,7 +485,7 @@ URL:https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-data-science-healthcare-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260427T230000Z
 DTEND:20260427T230000Z
 SUMMARY:Data Science for Healthcare Claims: 1 Day Training in Canberra
@@ -495,7 +495,7 @@ URL:https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-traini
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-in-business-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260428T000000Z
 DTEND:20260428T020000Z
 SUMMARY:AI in Business
@@ -505,7 +505,7 @@ URL:https://www.eventbrite.com.au/e/ai-in-business-tickets-1983233670295
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-implementation-business-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260428T050000Z
 DTEND:20260428T050000Z
 SUMMARY:AI Implementation in Business | Melbourne
@@ -515,7 +515,7 @@ URL:https://www.eventbrite.com.au/e/ai-implementation-in-business-melbourne-tick
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-implementation-business-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260428T050000Z
 DTEND:20260428T050000Z
 SUMMARY:AI Implementation in Business | Sydney
@@ -525,7 +525,7 @@ URL:https://www.eventbrite.com.au/e/ai-implementation-in-business-sydney-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-implementation-business-2026-04-28@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260428T050000Z
 DTEND:20260428T050000Z
 SUMMARY:AI Implementation in Business | Brisbane
@@ -535,7 +535,7 @@ URL:https://www.eventbrite.com.au/e/ai-implementation-in-business-brisbane-ticke
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-copywriting-2026-04-29@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260428T230000Z
 DTEND:20260428T230000Z
 SUMMARY:High-Impact AI Copywriting: 1 Day Course in Sydney
@@ -545,7 +545,7 @@ URL:https://www.eventbrite.com/e/high-impact-ai-copywriting-1-day-course-in-sydn
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-intro-ai-digital-marketing-2026-04-30@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260429T230000Z
 DTEND:20260429T230000Z
 SUMMARY:Intro to AI in Digital Marketing & Leadership – 1 Day Workshop in Melbourne
@@ -555,7 +555,7 @@ URL:https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-d
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-mongodb-user-group-2026-04-30@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260430T070000Z
 DTEND:20260430T090000Z
 SUMMARY:Melbourne MongoDB User Group #1 2026
@@ -565,7 +565,7 @@ URL:https://www.meetup.com/mongodb-usergroup-melbourne/events/313755220/
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-skills-healthcare-2026-05-01@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260430T230000Z
 DTEND:20260430T230000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Sydney
@@ -575,7 +575,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-tech-ai-proficiency-2026-05-01@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260430T230000Z
 DTEND:20260430T230000Z
 SUMMARY:Technology & AI Proficiency Enhancement – 1 Day Workshop in Sydney
@@ -585,7 +585,7 @@ URL:https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-wor
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-autonomous-ai-agents-2026-05-01@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260501T053000Z
 DTEND:20260501T073000Z
 SUMMARY:Build Autonomous AI Agents: 2-Hour Masterclass
@@ -595,7 +595,7 @@ URL:https://www.meetup.com/ai-australia-community-giofai/events/313487337/
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-r-data-science-2026-05-02@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260501T230000Z
 DTEND:20260501T230000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Sydney
@@ -605,7 +605,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-sydne
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-skills-healthcare-2026-05-04@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260503T230000Z
 DTEND:20260503T230000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Melbourne
@@ -615,7 +615,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-tech-ai-proficiency-2026-05-04@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260503T230000Z
 DTEND:20260503T230000Z
 SUMMARY:Technology & AI Proficiency Enhancement – 1 Day Workshop in Melbourne
@@ -625,7 +625,7 @@ URL:https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-wor
 END:VEVENT
 BEGIN:VEVENT
 UID:adelaide-ai-powered-agent-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T233000Z
 DTEND:20260505T013000Z
 SUMMARY:The AI-Powered Agent
@@ -635,7 +635,7 @@ URL:https://www.eventbrite.com.au/e/the-ai-powered-agent-registration-1986793535
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-skills-healthcare-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260505T070000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Brisbane
@@ -645,7 +645,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-content-curation-ai-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260504T230000Z
 SUMMARY:Content Curation with AI Basics: 1 Day Productivity Training in Melbourne
@@ -655,7 +655,7 @@ URL:https://www.eventbrite.com/e/content-curation-with-ai-basics-1-day-productiv
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-prompting-tech-writers-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260504T230000Z
 SUMMARY:AI-Powered Prompting for Tech Writers – 1 Day Training in Sydney
@@ -665,7 +665,7 @@ URL:https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-tra
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-python-data-science-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260504T230000Z
 SUMMARY:Python for Data Science: 1-Day Industry Workshop in Canberra
@@ -675,7 +675,7 @@ URL:https://www.eventbrite.com/e/python-for-data-science-1-day-industry-workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-tech-ai-proficiency-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260504T230000Z
 SUMMARY:Technology & AI Proficiency Enhancement – 1 Day Workshop in Brisbane
@@ -685,7 +685,7 @@ URL:https://www.eventbrite.com/e/technology-ai-proficiency-enhancement-1-day-wor
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-python-regression-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260504T230000Z
 DTEND:20260504T230000Z
 SUMMARY:Python Regression Accelerator: 1 Day Workshop in Brisbane
@@ -695,7 +695,7 @@ URL:https://www.eventbrite.com/e/python-regression-accelerator-1-day-workshop-in
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-generative-ai-society-workplace-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T050000Z
 DTEND:20260505T050000Z
 SUMMARY:Generative AI for Society and Workplace | Sydney
@@ -705,7 +705,7 @@ URL:https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-sydn
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-desci-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T050000Z
 DTEND:20260505T050000Z
 SUMMARY:Decrypting DeSci (Decentralized Science) | Sydney
@@ -715,7 +715,7 @@ URL:https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-sydne
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-generative-ai-society-workplace-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T050000Z
 DTEND:20260505T050000Z
 SUMMARY:Generative AI for Society and Workplace | Melbourne
@@ -725,7 +725,7 @@ URL:https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-melb
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-generative-ai-society-workplace-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T050000Z
 DTEND:20260505T050000Z
 SUMMARY:Generative AI for Society and Workplace | Brisbane
@@ -735,7 +735,7 @@ URL:https://www.eventbrite.com.au/e/generative-ai-for-society-and-workplace-bris
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-desci-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T050000Z
 DTEND:20260505T050000Z
 SUMMARY:Decrypting DeSci (Decentralized Science) | Brisbane
@@ -745,7 +745,7 @@ URL:https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-brisb
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-genesis-generative-ai-2026-05-05@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T070000Z
 DTEND:20260505T090000Z
 SUMMARY:GENESIS - The Generative AI Filmmaker's Networking Event
@@ -755,7 +755,7 @@ URL:https://www.meetup.com/moviemutuals/events/314159196/
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-prompting-tech-writers-2026-05-06@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T230000Z
 DTEND:20260505T230000Z
 SUMMARY:AI-Powered Prompting for Tech Writers – 1 Day Training in Melbourne
@@ -765,7 +765,7 @@ URL:https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-tra
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-content-curation-ai-2026-05-06@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T230000Z
 DTEND:20260505T230000Z
 SUMMARY:Content Curation with AI Basics: 1 Day Productivity Training in Brisbane
@@ -775,7 +775,7 @@ URL:https://www.eventbrite.com/e/content-curation-with-ai-basics-1-day-productiv
 END:VEVENT
 BEGIN:VEVENT
 UID:hobart-ai-powered-leadership-2026-05-06@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260505T230000Z
 DTEND:20260505T230000Z
 SUMMARY:AI-Powered Leadership: 1 Day Workshop for Next-Gen Leaders in Hobart
@@ -785,7 +785,7 @@ URL:https://www.eventbrite.com/e/ai-powered-leadership-1-day-workshop-for-next-g
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ethical-ai-governance-2026-05-07@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260506T230000Z
 DTEND:20260506T230000Z
 SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Melbourne
@@ -795,7 +795,7 @@ URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-w
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-bioinformatics-visualization-2026-05-07@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260506T230000Z
 DTEND:20260506T230000Z
 SUMMARY:Bioinformatics & Data Visualization: 1 Day Step-Up Course in Brisbane
@@ -805,7 +805,7 @@ URL:https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-step-up
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-r-data-science-2026-05-07@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260506T230000Z
 DTEND:20260506T230000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Brisbane
@@ -815,7 +815,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-brisb
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-editing-proofreading-2026-05-07@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260506T230000Z
 DTEND:20260506T230000Z
 SUMMARY:AI-Powered Editing & Proofreading Mastery: 1 Day Course in Brisbane
@@ -825,7 +825,7 @@ URL:https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-c
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-prompting-tech-writers-2026-05-07@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260506T230000Z
 DTEND:20260506T230000Z
 SUMMARY:AI-Powered Prompting for Tech Writers – 1 Day Training in Brisbane
@@ -835,7 +835,7 @@ URL:https://www.eventbrite.com/e/ai-powered-prompting-for-tech-writers-1-day-tra
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-ai-skills-healthcare-2026-05-08@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260507T230000Z
 DTEND:20260508T070000Z
 SUMMARY:AI Skills for Healthcare: 1 Day Beginner to Intermediate Course\, Canberra
@@ -845,7 +845,7 @@ URL:https://www.eventbrite.com/e/ai-skills-for-healthcare-1-day-beginner-to-inte
 END:VEVENT
 BEGIN:VEVENT
 UID:gold-coast-python-data-science-2026-05-08@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260507T230000Z
 DTEND:20260507T230000Z
 SUMMARY:Python for Data Science: 1-Day Industry Workshop in Gold Coast
@@ -855,7 +855,7 @@ URL:https://www.eventbrite.com/e/python-for-data-science-1-day-industry-workshop
 END:VEVENT
 BEGIN:VEVENT
 UID:canberra-r-data-science-2026-05-10@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260509T230000Z
 DTEND:20260509T230000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Canberra
@@ -865,7 +865,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-canbe
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-marketing-innovation-2026-05-12@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260512T050000Z
 DTEND:20260512T050000Z
 SUMMARY:Harnessing AI for Marketing Innovation | Melbourne
@@ -875,7 +875,7 @@ URL:https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-melbo
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ai-marketing-innovation-2026-05-12@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260512T050000Z
 DTEND:20260512T050000Z
 SUMMARY:Harnessing AI for Marketing Innovation | Sydney
@@ -885,7 +885,7 @@ URL:https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-sydne
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-marketing-innovation-2026-05-12@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260512T050000Z
 DTEND:20260512T050000Z
 SUMMARY:Harnessing AI for Marketing Innovation | Brisbane
@@ -895,7 +895,7 @@ URL:https://www.eventbrite.com.au/e/harnessing-ai-for-marketing-innovation-brisb
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-ethical-ai-governance-2026-05-13@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260513T090000Z
 DTEND:20260513T090000Z
 SUMMARY:Ethical AI & Technology Governance Basics – 1 Day Workshop in Sydney
@@ -905,7 +905,7 @@ URL:https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-w
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-business-innovation-ai-2026-05-14@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260513T230000Z
 DTEND:20260513T230000Z
 SUMMARY:Business Innovation with AI: 1 Day Session in Sydney
@@ -915,7 +915,7 @@ URL:https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-sy
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-essential-human-skills-ai-2026-05-14@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260513T230000Z
 DTEND:20260513T230000Z
 SUMMARY:Essential Human Skills for AI & Remote Work: 1 Day Training in Sydney
@@ -925,7 +925,7 @@ URL:https://www.eventbrite.com/e/essential-human-skills-for-ai-remote-work-1-day
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-data-science-healthcare-claims-2026-05-14@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260513T230000Z
 DTEND:20260513T230000Z
 SUMMARY:Data Science for Healthcare Claims: 1 Day Training in Brisbane
@@ -935,7 +935,7 @@ URL:https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-traini
 END:VEVENT
 BEGIN:VEVENT
 UID:gold-coast-r-data-science-2026-05-14@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260513T230000Z
 DTEND:20260513T230000Z
 SUMMARY:R Data Science Accelerator: 1 Day Workshop\, Gold Coast
@@ -945,7 +945,7 @@ URL:https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-gold-
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-data-science-healthcare-claims-2026-05-18@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260517T230000Z
 DTEND:20260517T230000Z
 SUMMARY:Data Science for Healthcare Claims: 1 Day Training in Sydney
@@ -955,7 +955,7 @@ URL:https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-traini
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-python-data-science-2026-05-19@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260518T230000Z
 DTEND:20260518T230000Z
 SUMMARY:Python Essentials for Data Science: 1 Day Session in Brisbane
@@ -965,7 +965,7 @@ URL:https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-sessio
 END:VEVENT
 BEGIN:VEVENT
 UID:sydney-python-data-science-2026-05-20@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260519T230000Z
 DTEND:20260519T230000Z
 SUMMARY:Python Essentials for Data Science: 1 Day Session in Sydney
@@ -975,7 +975,7 @@ URL:https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-sessio
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-python-data-science-2026-05-21@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260520T230000Z
 DTEND:20260521T070000Z
 SUMMARY:Python Essentials for Data Science: 1 Day Session in Melbourne
@@ -985,7 +985,7 @@ URL:https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-sessio
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-editing-proofreading-2026-05-29@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260528T230000Z
 DTEND:20260528T230000Z
 SUMMARY:AI-Powered Editing & Proofreading Mastery: 1 Day Course in Melbourne
@@ -995,7 +995,7 @@ URL:https://www.eventbrite.com/e/ai-powered-editing-proofreading-mastery-1-day-c
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-ai-tools-education-2026-05-29@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260528T230000Z
 DTEND:20260528T230000Z
 SUMMARY:AI Tools for Modern Education: 1 Day Training in Brisbane
@@ -1005,7 +1005,7 @@ URL:https://www.eventbrite.com/e/ai-tools-for-modern-education-1-day-training-in
 END:VEVENT
 BEGIN:VEVENT
 UID:brisbane-qld-ai-festival-2026-05-29@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260529T000000Z
 DTEND:20260529T000000Z
 SUMMARY:Qld AI Festival 2026 - Friday 29th May
@@ -1015,7 +1015,7 @@ URL:https://www.eventbrite.com.au/e/qld-ai-festival-2026-friday-29th-may-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-data-in-schools-2026-06-18@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260617T223000Z
 DTEND:20260617T223000Z
 SUMMARY:Data in Schools MEL2026
@@ -1025,7 +1025,7 @@ URL:https://www.eventbrite.com/e/data-in-schools-mel2026-tickets-1970040072890
 END:VEVENT
 BEGIN:VEVENT
 UID:melbourne-ai-cybersecurity-summit-2026-06-19@ai-events-australia
-DTSTAMP:20260417T015616Z
+DTSTAMP:20260417T063436Z
 DTSTART:20260618T213000Z
 DTEND:20260618T213000Z
 SUMMARY:National AI & Cybersecurity Leadership Summit 2026

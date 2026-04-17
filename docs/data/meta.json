@@ -1,13 +1,10 @@
 {
   "site_name": "AI Events Australia",
-  "updated_at": "2026-04-17T01:56:16Z",
+  "updated_at": "2026-04-17T06:34:36Z",
   "event_count": 103,
   "city_count": 7,
   "topic_count": 20,
-  "featured_cities": [
-    "Melbourne",
-    "Sydney"
-  ],
+  "featured_scope": "Australia-wide",
   "city_counts": {
     "Melbourne": 32,
     "Sydney": 25,
