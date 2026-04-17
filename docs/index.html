@@ -10,7 +10,8 @@
     <div class="topbar-shell">
       <div class="topbar">
         <a class="author-link" href="https://dmoliveira.github.io/my-cv-public/cv/human/" target="_blank" rel="noreferrer">Made by <strong>Diego Marinho</strong></a>
-        <nav class="topbar-nav">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="topbar-nav">☰ Menu</button>
+        <nav class="topbar-nav" id="topbar-nav">
           <a href="./index.html">Home</a>
           <a href="./calendar.html">Calendar</a>
           <a href="./map.html">Map</a>
@@ -33,7 +34,7 @@
             <div class="eyebrow">🤖 AI • 🧠 ML • 📊 Data • ✨ Generative AI</div>
             <h1>Australia’s cool little map of AI and data events.</h1>
             <p class="muted">Curated public directory of 2025–2026 events across Australia, covering capitals and major nearby hubs.</p>
-            <div id="stats" class="stats"></div>
+            <div id="stats" class="stats loading-block"></div>
             <div class="chips">
               <span class="chip">🇦🇺 Australia-wide</span>
               <span class="chip">🗺️ Map view</span>
@@ -47,7 +48,7 @@
               <a class="button" href="./map.html?mapPreset=ai">🤖 Explore AI on map</a>
             </div>
           </div>
-          <div id="next-callout"></div>
+          <div id="next-callout" class="loading-card"></div>
         </div>
       </section>
 
@@ -56,7 +57,7 @@
           <h2>⏭️ What comes next</h2>
           <a class="top-link" href="./calendar.html">See full calendar</a>
         </div>
-        <div id="next-events" class="grid cards"></div>
+        <div id="next-events" class="grid cards loading-grid"></div>
       </section>
 
       <section>
@@ -74,7 +75,7 @@
           <h2>🏙️ By city</h2>
           <a class="top-link" href="./cities.html">Open city view</a>
         </div>
-        <div id="city-grid" class="city-highlight"></div>
+        <div id="city-grid" class="city-highlight loading-grid"></div>
       </section>
 
       <section>
@@ -82,7 +83,7 @@
           <h2>🎯 Popular topics</h2>
           <a class="top-link" href="./topics.html">Open topic view</a>
         </div>
-        <div id="topic-grid" class="grid cards"></div>
+        <div id="topic-grid" class="grid cards loading-grid"></div>
       </section>
 
       <section>
