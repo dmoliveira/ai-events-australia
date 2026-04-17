@@ -40,6 +40,24 @@ function syncTopbarOffset() {
   document.documentElement.style.setProperty("--topbar-offset", `${height}px`);
 }
 
+function clearLoadingState() {
+  document.querySelectorAll('.loading-block, .loading-card, .loading-grid').forEach((node) => {
+    node.classList.remove('loading-block', 'loading-card', 'loading-grid');
+  });
+}
+
+function initMobileNav() {
+  const shell = document.querySelector('.topbar-shell');
+  const toggle = document.querySelector('.nav-toggle');
+  if (!shell || !toggle) return;
+  toggle.addEventListener('click', () => {
+    const isOpen = shell.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    toggle.textContent = isOpen ? '✕ Close' : '☰ Menu';
+    syncTopbarOffset();
+  });
+}
+
 function initActiveNav() {
   const current = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.topbar-nav a').forEach((link) => {
@@ -66,6 +84,14 @@ function showToast(message) {
   toast.classList.add('is-visible');
   clearTimeout(showToast._timer);
   showToast._timer = setTimeout(() => toast.classList.remove('is-visible'), 1400);
+}
+
+function showPageError(message) {
+  const target = document.querySelector('#next-events, #calendar-groups, #city-lists, #topic-lists, #events-table-body, #map-preview');
+  if (target) {
+    target.innerHTML = `<div class="notice"><p class="muted">${message}</p></div>`;
+  }
+  showToast(message);
 }
 
 function applyTheme(theme) {
@@ -435,7 +461,13 @@ function renderMap({ events, meta }) {
   const shareButton = document.querySelector("#map-share");
   const preview = document.querySelector("#map-preview");
   const presetButtons = [...document.querySelectorAll(".map-preset-button")];
-  if (!shell || typeof L === "undefined" || !count || !cityFilter || !topicFilter || !formatFilter || !resetButton || !shareButton || !preview) return;
+  if (!shell || !count || !cityFilter || !topicFilter || !formatFilter || !resetButton || !shareButton || !preview) return;
+  if (typeof L === "undefined") {
+    shell.innerHTML = `<div class="notice"><h3>Map unavailable</h3><p class="muted">The map library did not load. Please use the table or city views, or refresh the page to try again.</p></div>`;
+    count.textContent = 'Map unavailable';
+    preview.innerHTML = `<div class="muted">Try the table view or city view while the map is unavailable.</div>`;
+    return;
+  }
 
   cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
   topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
@@ -524,16 +556,23 @@ function renderMap({ events, meta }) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   syncTopbarOffset();
+  initMobileNav();
   initActiveNav();
   initTheme();
-  const data = await loadData();
-  const page = document.body.dataset.page;
-  if (page === "home") renderHome(data);
-  if (page === "calendar") renderCalendar(data);
-  if (page === "cities") renderCities(data);
-  if (page === "topics") renderTopics(data);
-  if (page === "table") renderTable(data);
-  if (page === "map") renderMap(data);
+  try {
+    const data = await loadData();
+    const page = document.body.dataset.page;
+    if (page === "home") renderHome(data);
+    if (page === "calendar") renderCalendar(data);
+    if (page === "cities") renderCities(data);
+    if (page === "topics") renderTopics(data);
+    if (page === "table") renderTable(data);
+    if (page === "map") renderMap(data);
+  } catch (error) {
+    showPageError('Some event data could not be loaded. Please refresh and try again.');
+  } finally {
+    clearLoadingState();
+  }
 });
 
 window.addEventListener("resize", syncTopbarOffset);
