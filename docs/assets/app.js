@@ -96,7 +96,7 @@ function cleanVenue(event) {
 
 function eventCard(event) {
   return `
-    <article class="card">
+    <article class="card event-card">
       <div class="eyebrow">${event.emoji} ${event.city}, ${event.state}</div>
       <h3>${event.title}</h3>
       <p class="muted">${event.summary}</p>
@@ -107,9 +107,7 @@ function eventCard(event) {
         <span>•</span>
         <span>${event.organizer}</span>
       </div>
-      <div class="meta small muted">
-        <span>📍 ${cleanVenue(event)}</span>
-      </div>
+      <div class="meta small muted"><span>📍 ${cleanVenue(event)}</span></div>
       <div class="chips">${event.topics.map(topicChip).join("")}</div>
       <div class="actions">
         <a class="button" href="${event.canonical_url}" target="_blank" rel="noreferrer">🔗 Source</a>
@@ -117,6 +115,21 @@ function eventCard(event) {
       </div>
     </article>
   `;
+}
+
+function sortEvents(events, sortBy) {
+  const sorted = [...events];
+  switch (sortBy) {
+    case "city":
+      return sorted.sort((a, b) => a.city.localeCompare(b.city) || new Date(a.start) - new Date(b.start));
+    case "topic":
+      return sorted.sort((a, b) => (a.topics[0] || "").localeCompare(b.topics[0] || "") || new Date(a.start) - new Date(b.start));
+    case "recent":
+      return sorted.sort((a, b) => new Date(b.start) - new Date(a.start));
+    case "upcoming":
+    default:
+      return sorted.sort((a, b) => new Date(a.start) - new Date(b.start));
+  }
 }
 
 function renderHome({ events, meta }) {
@@ -185,13 +198,17 @@ function rowForEvent(event) {
   return `
     <tr>
       <td data-label="Date">${fmtDate(event.start, event.timezone)}</td>
-      <td data-label="Title"><strong>${event.title}</strong><div class="muted">${event.summary}</div></td>
+      <td data-label="Event"><strong>${event.title}</strong><div class="muted">${event.summary}</div></td>
       <td data-label="City">${event.city}</td>
       <td data-label="Format">${event.format}</td>
       <td data-label="Topics">${event.topics.map(topicChip).join("")}</td>
-      <td data-label="Links"><a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
+      <td data-label="Link"><a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
     </tr>
   `;
+}
+
+function buildFilterOptions(values, formatter = (value) => value) {
+  return values.sort().map((value) => `<option value="${value}">${formatter(value)}</option>`).join("");
 }
 
 function renderTable({ events, meta }) {
@@ -199,32 +216,49 @@ function renderTable({ events, meta }) {
   const search = document.querySelector("#table-search");
   const cityFilter = document.querySelector("#table-city-filter");
   const topicFilter = document.querySelector("#table-topic-filter");
+  const formatFilter = document.querySelector("#table-format-filter");
+  const sortSelect = document.querySelector("#table-sort");
+  const resetButton = document.querySelector("#table-reset");
   const count = document.querySelector("#table-count");
-  if (!body || !search || !cityFilter || !topicFilter || !count) return;
+  const summary = document.querySelector("#table-summary");
+  if (!body || !search || !cityFilter || !topicFilter || !formatFilter || !sortSelect || !resetButton || !count || !summary) return;
 
-  cityFilter.innerHTML = `<option value="">All cities</option>${Object.keys(meta.city_counts).sort().map((city) => `<option value="${city}">${city}</option>`).join("")}`;
-  topicFilter.innerHTML = `<option value="">All topics</option>${Object.keys(meta.topic_counts).sort().map((topic) => {
+  cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
+  topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
     const info = TOPIC_META[topic] || { label: topic, emoji: "🔹" };
-    return `<option value="${topic}">${info.emoji} ${info.label}</option>`;
-  }).join("")}`;
+    return `${info.emoji} ${info.label}`;
+  })}`;
+  formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
 
   function draw() {
     const q = search.value.trim().toLowerCase();
     const city = cityFilter.value;
     const topic = topicFilter.value;
-    const filtered = events.filter((event) => {
-      const matchesQuery = !q || [event.title, event.summary, event.city, event.organizer, ...(event.topics || [])].join(" ").toLowerCase().includes(q);
-      const matchesCity = !city || event.city === city;
-      const matchesTopic = !topic || event.topics.includes(topic);
-      return matchesQuery && matchesCity && matchesTopic;
-    });
+    const format = formatFilter.value;
+    const sort = sortSelect.value;
+    const filtered = sortEvents(events.filter((event) => {
+      const haystack = [event.title, event.summary, event.city, event.organizer, cleanVenue(event), ...(event.topics || [])].join(" ").toLowerCase();
+      return (!q || haystack.includes(q))
+        && (!city || event.city === city)
+        && (!topic || event.topics.includes(topic))
+        && (!format || event.format === format);
+    }), sort);
     count.textContent = `${filtered.length} matching events`;
+    summary.textContent = filtered.length ? `Showing ${filtered.length} events sorted by ${sort}.` : "No events match the current filters.";
     body.innerHTML = filtered.map(rowForEvent).join("");
   }
 
-  [search, cityFilter, topicFilter].forEach((element) => {
+  [search, cityFilter, topicFilter, formatFilter, sortSelect].forEach((element) => {
     element.addEventListener("input", draw);
     element.addEventListener("change", draw);
+  });
+  resetButton.addEventListener("click", () => {
+    search.value = "";
+    cityFilter.value = "";
+    topicFilter.value = "";
+    formatFilter.value = "";
+    sortSelect.value = "upcoming";
+    draw();
   });
   draw();
 }
@@ -243,34 +277,98 @@ function buildMapPoints(events) {
     });
 }
 
-function renderMap({ events }) {
+function markerPopup(event) {
+  return `
+    <div class="map-popup">
+      <strong>${event.title}</strong><br>
+      <span>${event.city}, ${event.state}</span><br>
+      <span>${fmtDate(event.start, event.timezone)}</span><br>
+      <span>${cleanVenue(event)}</span><br>
+      <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Open event page</a>
+    </div>
+  `;
+}
+
+function mapMarkerIcon(event) {
+  return L.divIcon({
+    className: "event-map-marker",
+    html: `<span>${event.emoji || "📍"}</span>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -10],
+  });
+}
+
+function renderMap({ events, meta }) {
   const shell = document.querySelector("#events-map");
   const count = document.querySelector("#map-count");
-  if (!shell || typeof L === "undefined") return;
+  const cityFilter = document.querySelector("#map-city-filter");
+  const topicFilter = document.querySelector("#map-topic-filter");
+  const formatFilter = document.querySelector("#map-format-filter");
+  const resetButton = document.querySelector("#map-reset");
+  const preview = document.querySelector("#map-preview");
+  if (!shell || typeof L === "undefined" || !count || !cityFilter || !topicFilter || !formatFilter || !resetButton || !preview) return;
+
+  cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
+  topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
+    const info = TOPIC_META[topic] || { label: topic, emoji: "🔹" };
+    return `${info.emoji} ${info.label}`;
+  })}`;
+  formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
+
   const points = buildMapPoints(events);
-  if (count) count.textContent = `${points.length} mapped events`;
   const map = L.map("events-map", { scrollWheelZoom: true }).setView([-26.5, 134.0], 4);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors',
   }).addTo(map);
-  points.forEach((event) => {
-    const marker = L.circleMarker([event.lat, event.lng], {
-      radius: 7,
-      weight: 2,
-      color: "#6ee7ff",
-      fillColor: "#7b4dff",
-      fillOpacity: 0.85,
-    }).addTo(map);
-    marker.bindPopup(`
-      <div class="map-popup">
-        <strong>${event.title}</strong><br>
-        <span>${event.city}, ${event.state}</span><br>
-        <span>${fmtDate(event.start, event.timezone)}</span><br>
-        <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Open source page</a>
+
+  const clusterLayer = typeof L.markerClusterGroup === "function"
+    ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 44 })
+    : L.layerGroup();
+  map.addLayer(clusterLayer);
+
+  function drawPreview(filtered) {
+    preview.innerHTML = filtered.slice(0, 6).map((event) => `
+      <div class="map-preview-item">
+        <strong>${event.title}</strong>
+        <div class="muted small">${event.city} • ${fmtDate(event.start, event.timezone)}</div>
       </div>
-    `);
+    `).join("") || `<div class="muted">No mapped events match the current filters.</div>`;
+  }
+
+  function draw() {
+    const city = cityFilter.value;
+    const topic = topicFilter.value;
+    const format = formatFilter.value;
+    const filtered = points.filter((event) => (!city || event.city === city) && (!topic || event.topics.includes(topic)) && (!format || event.format === format));
+    clusterLayer.clearLayers();
+    filtered.forEach((event) => {
+      const marker = L.marker([event.lat, event.lng], { icon: mapMarkerIcon(event) });
+      marker.bindPopup(markerPopup(event));
+      clusterLayer.addLayer(marker);
+    });
+    count.textContent = `${filtered.length} mapped events`;
+    drawPreview(filtered);
+    if (filtered.length) {
+      const bounds = L.latLngBounds(filtered.map((event) => [event.lat, event.lng]));
+      map.fitBounds(bounds.pad(0.2));
+    } else {
+      map.setView([-26.5, 134.0], 4);
+    }
+  }
+
+  [cityFilter, topicFilter, formatFilter].forEach((element) => {
+    element.addEventListener("change", draw);
   });
+  resetButton.addEventListener("click", () => {
+    cityFilter.value = "";
+    topicFilter.value = "";
+    formatFilter.value = "";
+    draw();
+  });
+
+  draw();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
