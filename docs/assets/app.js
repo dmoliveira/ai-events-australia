@@ -380,7 +380,7 @@ function rowForEvent(event) {
       <td data-label="City">${event.city}</td>
       <td data-label="Format">${event.format}</td>
       <td data-label="Topics">${event.topics.map(topicChip).join("")}</td>
-      <td data-label="Link">${favoriteButton(event)} ${modalButton(event, 'Open')} <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
+      <td data-label="Link"><div class="actions">${favoriteButton(event)} ${modalButton(event, 'Open')} <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></div></td>
     </tr>
   `;
 }
