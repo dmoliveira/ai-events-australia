@@ -1,4 +1,5 @@
 const THEME_KEY = "ai-events-theme";
+const FAVORITES_KEY = "ai-events-favorites";
 
 const TOPIC_META = {
   ai: { label: "AI", emoji: "🤖" },
@@ -161,6 +162,22 @@ function eventPayload(event) {
   return encodeURIComponent(JSON.stringify(event));
 }
 
+function loadFavorites() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]'));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveFavorites(favorites) {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+}
+
+function favoriteButton(event) {
+  return `<button class="button favorite-button" type="button" data-favorite-id="${escapeHtml(event.id)}" aria-pressed="false">☆ Save</button>`;
+}
+
 function modalButton(event, label = "Details") {
   return `<button class="button detail-button" type="button" data-event="${eventPayload(event)}">ℹ️ ${label}</button>`;
 }
@@ -181,6 +198,7 @@ function eventCard(event) {
       <div class="meta small muted"><span>📍 ${cleanVenue(event)}</span></div>
       <div class="chips">${event.topics.map(topicChip).join("")}</div>
       <div class="actions">
+        ${favoriteButton(event)}
         ${modalButton(event)}
         <a class="button" href="${event.canonical_url}" target="_blank" rel="noreferrer">🔗 Source</a>
         <a class="button" href="https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${toGCalDate(event.start)}/${toGCalDate(event.end || event.start)}&details=${encodeURIComponent(event.summary + " " + event.canonical_url)}&location=${encodeURIComponent(`${cleanVenue(event)}, ${event.city}`)}" target="_blank" rel="noreferrer">🗓️ Add</a>
@@ -344,7 +362,7 @@ function rowForEvent(event) {
       <td data-label="City">${event.city}</td>
       <td data-label="Format">${event.format}</td>
       <td data-label="Topics">${event.topics.map(topicChip).join("")}</td>
-      <td data-label="Link">${modalButton(event, 'Open')} <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
+      <td data-label="Link">${favoriteButton(event)} ${modalButton(event, 'Open')} <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
     </tr>
   `;
 }
@@ -375,10 +393,41 @@ function renderModalContent(event) {
     <div class="meta"><span>📍 ${escapeHtml(cleanVenue(event))}</span></div>
     <div class="chips">${event.topics.map(topicChip).join('')}</div>
     <div class="modal-actions actions">
+      ${favoriteButton(event)}
       <a class="button" href="${escapeHtml(event.canonical_url)}" target="_blank" rel="noreferrer">🔗 Source</a>
       <a class="button" href="https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${toGCalDate(event.start)}/${toGCalDate(event.end || event.start)}&details=${encodeURIComponent(event.summary + " " + event.canonical_url)}&location=${encodeURIComponent(`${cleanVenue(event)}, ${event.city}`)}" target="_blank" rel="noreferrer">🗓️ Add</a>
     </div>
   `;
+}
+
+function syncFavoriteButtons() {
+  const favorites = loadFavorites();
+  document.querySelectorAll('[data-favorite-id]').forEach((button) => {
+    const id = button.getAttribute('data-favorite-id');
+    const active = favorites.has(id);
+    button.setAttribute('aria-pressed', String(active));
+    button.classList.toggle('is-favorite', active);
+    button.textContent = active ? '★ Saved' : '☆ Save';
+  });
+}
+
+function initFavorites() {
+  document.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-favorite-id]');
+    if (!button) return;
+    const id = button.getAttribute('data-favorite-id');
+    const favorites = loadFavorites();
+    if (favorites.has(id)) {
+      favorites.delete(id);
+      showToast('Removed from saved events');
+    } else {
+      favorites.add(id);
+      showToast('Saved event');
+    }
+    saveFavorites(favorites);
+    syncFavoriteButtons();
+  });
+  syncFavoriteButtons();
 }
 
 function initEventModal() {
@@ -393,6 +442,22 @@ function initEventModal() {
     if (lastTrigger) lastTrigger.focus();
   }
 
+  function trapFocus(event) {
+    if (!shell.classList.contains('is-open') || event.key !== 'Tab') return;
+    const focusables = [...card.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
+      .filter((el) => !el.hasAttribute('disabled'));
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+
   document.addEventListener('click', (event) => {
     const trigger = event.target.closest('.detail-button');
     if (trigger) {
@@ -401,6 +466,7 @@ function initEventModal() {
       content.innerHTML = renderModalContent(data);
       shell.classList.add('is-open');
       document.body.classList.add('modal-open');
+      syncFavoriteButtons();
       card.focus();
       return;
     }
@@ -410,6 +476,7 @@ function initEventModal() {
   document.addEventListener('keydown', (event) => {
     if (!shell.classList.contains('is-open')) return;
     if (event.key === 'Escape') closeModal();
+    trapFocus(event);
   });
 }
 
@@ -639,6 +706,7 @@ function renderMap({ events, meta }) {
 document.addEventListener("DOMContentLoaded", async () => {
   syncTopbarOffset();
   initMobileNav();
+  initFavorites();
   initEventModal();
   initActiveNav();
   initTheme();
