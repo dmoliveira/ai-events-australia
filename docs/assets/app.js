@@ -148,6 +148,23 @@ function cleanVenue(event) {
   return event.venue_name || "Venue TBC";
 }
 
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function eventPayload(event) {
+  return encodeURIComponent(JSON.stringify(event));
+}
+
+function modalButton(event, label = "Details") {
+  return `<button class="button detail-button" type="button" data-event="${eventPayload(event)}">ℹ️ ${label}</button>`;
+}
+
 function eventCard(event) {
   return `
     <article class="card event-card">
@@ -164,6 +181,7 @@ function eventCard(event) {
       <div class="meta small muted"><span>📍 ${cleanVenue(event)}</span></div>
       <div class="chips">${event.topics.map(topicChip).join("")}</div>
       <div class="actions">
+        ${modalButton(event)}
         <a class="button" href="${event.canonical_url}" target="_blank" rel="noreferrer">🔗 Source</a>
         <a class="button" href="https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${toGCalDate(event.start)}/${toGCalDate(event.end || event.start)}&details=${encodeURIComponent(event.summary + " " + event.canonical_url)}&location=${encodeURIComponent(`${cleanVenue(event)}, ${event.city}`)}" target="_blank" rel="noreferrer">🗓️ Add</a>
       </div>
@@ -326,9 +344,73 @@ function rowForEvent(event) {
       <td data-label="City">${event.city}</td>
       <td data-label="Format">${event.format}</td>
       <td data-label="Topics">${event.topics.map(topicChip).join("")}</td>
-      <td data-label="Link"><a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
+      <td data-label="Link">${modalButton(event, 'Open')} <a href="${event.canonical_url}" target="_blank" rel="noreferrer">Source</a></td>
     </tr>
   `;
+}
+
+function ensureModalShell() {
+  let shell = document.querySelector('#event-modal');
+  if (shell) return shell;
+  shell = document.createElement('div');
+  shell.id = 'event-modal';
+  shell.className = 'modal-shell';
+  shell.innerHTML = `
+    <div class="modal-backdrop" data-close-modal="true"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="event-modal-title" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="Close details" data-close-modal="true">✕</button>
+      <div id="event-modal-content"></div>
+    </div>
+  `;
+  document.body.appendChild(shell);
+  return shell;
+}
+
+function renderModalContent(event) {
+  return `
+    <div class="eyebrow">${escapeHtml(event.emoji)} ${escapeHtml(event.city)}, ${escapeHtml(event.state)}</div>
+    <h2 id="event-modal-title">${escapeHtml(event.title)}</h2>
+    <p class="muted">${escapeHtml(event.summary)}</p>
+    <div class="meta"><span>${escapeHtml(fmtDate(event.start, event.timezone))}</span><span>•</span><span>${escapeHtml(event.format)}</span><span>•</span><span>${escapeHtml(event.organizer)}</span></div>
+    <div class="meta"><span>📍 ${escapeHtml(cleanVenue(event))}</span></div>
+    <div class="chips">${event.topics.map(topicChip).join('')}</div>
+    <div class="modal-actions actions">
+      <a class="button" href="${escapeHtml(event.canonical_url)}" target="_blank" rel="noreferrer">🔗 Source</a>
+      <a class="button" href="https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${toGCalDate(event.start)}/${toGCalDate(event.end || event.start)}&details=${encodeURIComponent(event.summary + " " + event.canonical_url)}&location=${encodeURIComponent(`${cleanVenue(event)}, ${event.city}`)}" target="_blank" rel="noreferrer">🗓️ Add</a>
+    </div>
+  `;
+}
+
+function initEventModal() {
+  const shell = ensureModalShell();
+  const card = shell.querySelector('.modal-card');
+  const content = shell.querySelector('#event-modal-content');
+  let lastTrigger = null;
+
+  function closeModal() {
+    shell.classList.remove('is-open');
+    document.body.classList.remove('modal-open');
+    if (lastTrigger) lastTrigger.focus();
+  }
+
+  document.addEventListener('click', (event) => {
+    const trigger = event.target.closest('.detail-button');
+    if (trigger) {
+      lastTrigger = trigger;
+      const data = JSON.parse(decodeURIComponent(trigger.dataset.event));
+      content.innerHTML = renderModalContent(data);
+      shell.classList.add('is-open');
+      document.body.classList.add('modal-open');
+      card.focus();
+      return;
+    }
+    if (event.target.closest('[data-close-modal="true"]')) closeModal();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (!shell.classList.contains('is-open')) return;
+    if (event.key === 'Escape') closeModal();
+  });
 }
 
 function buildFilterOptions(values, formatter = (value) => value) {
@@ -557,6 +639,7 @@ function renderMap({ events, meta }) {
 document.addEventListener("DOMContentLoaded", async () => {
   syncTopbarOffset();
   initMobileNav();
+  initEventModal();
   initActiveNav();
   initTheme();
   try {
