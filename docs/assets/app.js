@@ -174,6 +174,8 @@ function saveFavorites(favorites) {
   localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
 }
 
+let cachedData = null;
+
 function favoriteButton(event) {
   return `<button class="button favorite-button" type="button" data-favorite-id="${escapeHtml(event.id)}" aria-pressed="false">☆ Save</button>`;
 }
@@ -316,6 +318,22 @@ function renderHome({ events, meta }) {
   if (meta.next_event) {
     document.querySelector("#next-callout").innerHTML = eventCard(meta.next_event);
   }
+  renderSavedEvents(events);
+}
+
+function renderSavedEvents(events) {
+  const savedSection = document.querySelector('#saved-events-section');
+  const savedGrid = document.querySelector('#saved-events-grid');
+  if (!savedSection || !savedGrid) return;
+  const favorites = loadFavorites();
+  const savedEvents = events.filter((event) => favorites.has(event.id)).slice(0, 6);
+  if (savedEvents.length) {
+    savedSection.classList.remove('is-hidden');
+    savedGrid.innerHTML = savedEvents.map(eventCard).join('');
+  } else {
+    savedSection.classList.add('is-hidden');
+    savedGrid.innerHTML = '';
+  }
 }
 
 function renderCalendar({ events }) {
@@ -426,6 +444,7 @@ function initFavorites() {
     }
     saveFavorites(favorites);
     syncFavoriteButtons();
+    if (cachedData?.events) renderSavedEvents(cachedData.events);
   });
   syncFavoriteButtons();
 }
@@ -505,6 +524,8 @@ function renderTable({ events, meta }) {
   })}`;
   formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
   const initial = getUrlState(["q", "city", "topic", "format", "sort", "preset"]);
+  const favoritesPresetFromUrl = new URLSearchParams(window.location.search).get('favorites') === '1';
+  if (favoritesPresetFromUrl && !initial.preset) initial.preset = 'favorites';
   if (initial.q) search.value = initial.q;
   if (initial.city) cityFilter.value = initial.city;
   if (initial.topic) topicFilter.value = initial.topic;
@@ -519,18 +540,20 @@ function renderTable({ events, meta }) {
     const format = formatFilter.value;
     const sort = sortSelect.value;
     const activePreset = presetButtons.find((button) => button.classList.contains("is-active"))?.dataset.preset || "";
+    const favoritesOnly = activePreset === 'favorites';
     const filtered = sortEvents(events.filter((event) => {
       const haystack = [event.title, event.summary, event.city, event.organizer, cleanVenue(event), ...(event.topics || [])].join(" ").toLowerCase();
       return (!q || haystack.includes(q))
         && (!city || event.city === city)
         && (!topic || event.topics.includes(topic))
         && (!format || event.format === format)
-        && (!activePreset || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic);
+        && (!activePreset || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic)
+        && (!favoritesOnly || loadFavorites().has(event.id));
     }), sort);
     count.textContent = `${filtered.length} matching events`;
     summary.textContent = filtered.length ? `Showing ${filtered.length} events sorted by ${sort}.` : "No events match the current filters.";
     body.innerHTML = filtered.map(rowForEvent).join("");
-    updateUrlState({ q, city, topic, format, sort, preset: activePreset });
+    updateUrlState({ q, city, topic, format, sort, preset: activePreset, favorites: favoritesOnly ? '1' : '' });
   }
 
   [search, cityFilter, topicFilter, formatFilter, sortSelect].forEach((element) => {
@@ -551,6 +574,11 @@ function renderTable({ events, meta }) {
     button.addEventListener("click", () => {
       const preset = button.dataset.preset;
       const isActive = button.classList.contains("is-active");
+      if (preset === 'favorites') {
+        setActivePreset(presetButtons, isActive ? '' : preset);
+        draw();
+        return;
+      }
       if (isTopicPreset(preset) && isActive) {
         topicFilter.value = "";
       } else if (isTopicPreset(preset)) {
@@ -625,6 +653,8 @@ function renderMap({ events, meta }) {
   })}`;
   formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
   const initial = getUrlState(["mapCity", "mapTopic", "mapFormat", "mapPreset"]);
+  const favoritesPresetFromUrl = new URLSearchParams(window.location.search).get('favorites') === '1';
+  if (favoritesPresetFromUrl && !initial.mapPreset) initial.mapPreset = 'favorites';
   if (initial.mapCity) cityFilter.value = initial.mapCity;
   if (initial.mapTopic) topicFilter.value = initial.mapTopic;
   if (initial.mapFormat) formatFilter.value = initial.mapFormat;
@@ -656,7 +686,8 @@ function renderMap({ events, meta }) {
     const topic = topicFilter.value;
     const format = formatFilter.value;
     const activePreset = presetButtons.find((button) => button.classList.contains("is-active"))?.dataset.preset || "";
-    const filtered = points.filter((event) => (!city || event.city === city) && (!topic || event.topics.includes(topic)) && (!format || event.format === format) && (!activePreset || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic));
+    const favoritesOnly = activePreset === 'favorites';
+    const filtered = points.filter((event) => (!city || event.city === city) && (!topic || event.topics.includes(topic)) && (!format || event.format === format) && (!activePreset || activePreset === 'favorites' || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic) && (!favoritesOnly || loadFavorites().has(event.id)));
     clusterLayer.clearLayers();
     filtered.forEach((event) => {
       const marker = L.marker([event.lat, event.lng], { icon: mapMarkerIcon(event) });
@@ -671,7 +702,7 @@ function renderMap({ events, meta }) {
     } else {
       map.setView([-26.5, 134.0], 4);
     }
-    updateUrlState({ mapCity: city, mapTopic: topic, mapFormat: format, mapPreset: activePreset });
+    updateUrlState({ mapCity: city, mapTopic: topic, mapFormat: format, mapPreset: activePreset, favorites: favoritesOnly ? '1' : '' });
   }
 
   [cityFilter, topicFilter, formatFilter].forEach((element) => {
@@ -689,6 +720,11 @@ function renderMap({ events, meta }) {
     button.addEventListener("click", () => {
       const preset = button.dataset.preset;
       const isActive = button.classList.contains("is-active");
+      if (preset === 'favorites') {
+        setActivePreset(presetButtons, isActive ? '' : preset);
+        draw();
+        return;
+      }
       if (isTopicPreset(preset) && isActive) {
         topicFilter.value = "";
       } else if (isTopicPreset(preset)) {
@@ -712,6 +748,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
   try {
     const data = await loadData();
+    cachedData = data;
     const page = document.body.dataset.page;
     if (page === "home") renderHome(data);
     if (page === "calendar") renderCalendar(data);
@@ -727,3 +764,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 window.addEventListener("resize", syncTopbarOffset);
+  const favoritesPresetFromUrl = new URLSearchParams(window.location.search).get('favorites') === '1';
+  if (favoritesPresetFromUrl && !initial.preset) initial.preset = 'favorites';

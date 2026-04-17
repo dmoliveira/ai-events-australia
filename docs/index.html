@@ -30,7 +30,7 @@
     </div>
     <main class="shell" id="main-content">
       <section class="hero">
-        <div class="hero-grid">
+        <div class="hero-grid hero-grid-home">
           <div class="hero-card hero-copy">
             <div class="eyebrow">🤖 AI • 🧠 ML • 📊 Data • ✨ Generative AI</div>
             <h1>Australia’s cool little map of AI and data events.</h1>
@@ -59,6 +59,14 @@
           <a class="top-link" href="./calendar.html">See full calendar</a>
         </div>
         <div id="next-events" class="grid cards loading-grid"></div>
+      </section>
+
+      <section id="saved-events-section" class="saved-section is-hidden">
+        <div class="section-header">
+          <h2>⭐ Saved events</h2>
+          <a class="top-link" href="./table.html?favorites=1">Open saved view</a>
+        </div>
+        <div id="saved-events-grid" class="grid cards"></div>
       </section>
 
       <section>

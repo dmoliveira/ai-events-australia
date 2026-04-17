@@ -207,7 +207,12 @@ h3 { font-size: 1.1rem; }
 .metric { padding: 16px; }
 .metric strong { display: block; font-size: 1.7rem; margin-bottom: 6px; }
 .hero-grid { display: grid; gap: 18px; grid-template-columns: 1.8fr 1fr; }
+.hero-grid-home { grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.9fr); align-items: stretch; }
 .grid.cards, .city-highlight { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.saved-section.is-hidden { display: none; }
+.hero-grid-home #next-callout .card,
+.hero-grid-home #next-callout .event-card { height: 100%; }
+.hero-grid-home #next-callout { align-self: stretch; }
 
 main section { padding: 14px 0 28px; }
 .section-header, .section-head {
