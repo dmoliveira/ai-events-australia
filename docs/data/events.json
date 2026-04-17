@@ -124,7 +124,7 @@
   {
     "id": "melbourne-ai-professional-networking-2026-04-23",
     "title": "#AI #Data and #TechProfessionalNetworking",
-    "summary": "Australia-relevant networking event around AI, data, and technology professionals.",
+    "summary": "Melbourne-linked networking event for AI, data, and technology professionals with broader Australia community participation.",
     "topics": [
       "ai",
       "data-science",
@@ -137,7 +137,7 @@
     "year": 2026,
     "city": "Melbourne",
     "state": "VIC",
-    "venue_name": "Online / Australia community",
+    "venue_name": "Melbourne / online community",
     "format": "hybrid",
     "organizer": "Analytics.Club Melbourne",
     "source_platform": "Meetup",
@@ -2736,6 +2736,434 @@
     "source_tier": "platform",
     "canonical_url": "https://www.eventbrite.com/e/intro-to-ai-in-digital-marketing-leadership-1-day-workshop-in-brisbane-tickets-1975981337372",
     "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "canberra-r-data-science-2026-03-24",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Canberra",
+    "summary": "Canberra R-focused data science accelerator workshop.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-03-24T09:00:00+11:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Canberra",
+    "state": "ACT",
+    "venue_name": "Regus - Canberra, Gateway Business Center",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-canberra-tickets-1977692436315",
+    "source_url": "https://www.eventbrite.com.au/d/australia--canberra/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "canberra-data-science-healthcare-2026-03-09",
+    "title": "Data Science for Healthcare Claims: 1 Day Training in Canberra",
+    "summary": "Canberra training session on healthcare claims analysis using data science methods.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "📊🏥🎓",
+    "start": "2026-03-09T09:00:00+11:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Canberra",
+    "state": "ACT",
+    "venue_name": "Regus - Canberra, Gateway Business Center",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-training-in-canberra-tickets-1977483831372",
+    "source_url": "https://www.eventbrite.com.au/d/australia--canberra/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "canberra-r-data-science-2026-05-10",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Canberra",
+    "summary": "Additional Canberra date for the R-focused data science accelerator workshop series.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-05-10T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Canberra",
+    "state": "ACT",
+    "venue_name": "Regus - Canberra, Gateway Business Center",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-canberra-tickets-1977695163472",
+    "source_url": "https://www.eventbrite.com.au/d/australia--canberra/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "canberra-data-science-healthcare-2026-04-28",
+    "title": "Data Science for Healthcare Claims: 1 Day Training in Canberra",
+    "summary": "Additional Canberra date for healthcare claims data science training.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "📊🏥🎓",
+    "start": "2026-04-28T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Sydney",
+    "year": 2026,
+    "city": "Canberra",
+    "state": "ACT",
+    "venue_name": "Regus - Canberra, Gateway Business Center",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-training-in-canberra-tickets-1977484290746",
+    "source_url": "https://www.eventbrite.com.au/d/australia--canberra/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "hobart-tech-mixer-ai-data-2026-04-24",
+    "title": "Hobart Tech Mixer and Social (Tech / AI / Data / IT)",
+    "summary": "Hobart networking mixer for tech, AI, data, and IT professionals.",
+    "topics": [
+      "ai",
+      "data-science",
+      "networking"
+    ],
+    "emoji": "🤖📊🤝",
+    "start": "2026-04-24T17:30:00+10:00",
+    "end": null,
+    "timezone": "Australia/Hobart",
+    "year": 2026,
+    "city": "Hobart",
+    "state": "TAS",
+    "venue_name": "Botanica Bar Salamanca",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/hobart-tech-mixer-and-social-tech-ai-data-it-tickets-1987414494252",
+    "source_url": "https://www.eventbrite.com.au/d/australia--hobart/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "hobart-ai-powered-leadership-2026-05-06",
+    "title": "AI-Powered Leadership: 1 Day Workshop for Next-Gen Leaders in Hobart",
+    "summary": "Hobart leadership workshop on using AI effectively in modern organizations.",
+    "topics": [
+      "ai",
+      "business-ai",
+      "training"
+    ],
+    "emoji": "🤖💼🎓",
+    "start": "2026-05-06T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Hobart",
+    "year": 2026,
+    "city": "Hobart",
+    "state": "TAS",
+    "venue_name": null,
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/ai-powered-leadership-1-day-workshop-for-next-gen-leaders-in-hobart-tickets-1985901749592",
+    "source_url": "https://www.eventbrite.com.au/d/australia--hobart/ai/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
+  },
+  {
+    "id": "adelaide-python-data-science-2025-12-12",
+    "title": "Python Essentials for Data Science: 1 Day Session in Adelaide",
+    "summary": "Adelaide training session covering Python essentials for data science.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2025-12-12T09:00:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2025,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Regus-Adelaide, Spaces Wayville",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-essentials-for-data-science-1-day-session-in-adelaide-tickets-1975583543560",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "adelaide-r-data-science-2026-03-28",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Adelaide",
+    "summary": "Adelaide R-focused data science accelerator workshop.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-03-28T09:00:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2026,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Regus-Adelaide, Spaces Wayville",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-adelaide-tickets-1977692435312",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "adelaide-data-science-healthcare-2026-03-06",
+    "title": "Data Science for Healthcare Claims: 1 Day Training in Adelaide",
+    "summary": "Adelaide training session on healthcare claims analysis using data science methods.",
+    "topics": [
+      "data-science",
+      "health-ai",
+      "training"
+    ],
+    "emoji": "📊🏥🎓",
+    "start": "2026-03-06T09:00:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2026,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Regus-Adelaide, Spaces Wayville",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/data-science-for-healthcare-claims-1-day-training-in-adelaide-tickets-1977483828363",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "adelaide-desci-2025-11-04",
+    "title": "Decrypting DeSci (Decentralized Science) | Adelaide",
+    "summary": "Adelaide talk on decentralized science and adjacent research-tech themes.",
+    "topics": [
+      "computer-science",
+      "innovation"
+    ],
+    "emoji": "💻🚀",
+    "start": "2025-11-04T15:30:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2025,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": null,
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com.au/e/decrypting-desci-decentralized-science-adelaide-tickets-1835684946089",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "medium",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "unknown"
+  },
+  {
+    "id": "adelaide-bioinformatics-visualization-2026-01-10",
+    "title": "Bioinformatics & Data Visualization: 1 Day Step-Up Course in Adelaide",
+    "summary": "Adelaide step-up course on bioinformatics and data visualization.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-01-10T09:00:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2026,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Spaces Wayville",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/bioinformatics-data-visualization-1-day-step-up-course-in-adelaide-tickets-1976441810660",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "adelaide-python-regression-2026-03-17",
+    "title": "Python Regression Accelerator: 1 Day Workshop in Adelaide",
+    "summary": "Adelaide Python workshop focused on regression techniques for data analysis.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-03-17T09:00:00+10:30",
+    "end": null,
+    "timezone": "Australia/Adelaide",
+    "year": 2026,
+    "city": "Adelaide",
+    "state": "SA",
+    "venue_name": "Regus-Adelaide, Spaces Wayville",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-regression-accelerator-1-day-workshop-in-adelaide-tickets-1977359774314",
+    "source_url": "https://www.eventbrite.com.au/d/australia--adelaide/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "gold-coast-python-data-science-2026-05-08",
+    "title": "Python for Data Science: 1-Day Industry Workshop in Gold Coast",
+    "summary": "Gold Coast workshop covering Python for data science practice.",
+    "topics": [
+      "python",
+      "data-science",
+      "training"
+    ],
+    "emoji": "🐍📊🎓",
+    "start": "2026-05-08T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Gold Coast",
+    "state": "QLD",
+    "venue_name": "Regus Surfers Paradise",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/python-for-data-science-1-day-industry-workshop-in-gold-coast-tickets-1981085217214",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
+    "discovered_from": [
+      "eventbrite"
+    ],
+    "confidence": "high",
+    "status": "upcoming",
+    "end_status": "unknown",
+    "venue_status": "known"
+  },
+  {
+    "id": "gold-coast-r-data-science-2026-05-14",
+    "title": "R Data Science Accelerator: 1 Day Workshop, Gold Coast",
+    "summary": "Gold Coast R-focused data science accelerator workshop.",
+    "topics": [
+      "data-science",
+      "training"
+    ],
+    "emoji": "📊🎓",
+    "start": "2026-05-14T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
+    "year": 2026,
+    "city": "Gold Coast",
+    "state": "QLD",
+    "venue_name": "Regus Surfers Paradise",
+    "format": "in-person",
+    "organizer": "Eventbrite organizer",
+    "source_platform": "Eventbrite",
+    "source_tier": "platform",
+    "canonical_url": "https://www.eventbrite.com/e/r-data-science-accelerator-1-day-workshop-gold-coast-tickets-1977695183532",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/data-science/",
     "discovered_from": [
       "eventbrite"
     ],

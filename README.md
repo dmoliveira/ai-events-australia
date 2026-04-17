@@ -5,14 +5,14 @@
 [![Launch dataset](https://img.shields.io/badge/dataset-launch--seed-orange)](./docs/data/events.json)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
-Curated directory of **AI, machine learning, data science, generative AI, and adjacent computer science events happening across Australia in 2026**, with a strong spotlight on **Melbourne** and **Sydney**.
+Curated directory of **AI, machine learning, data science, generative AI, and adjacent computer science events happening across Australia**.
 
 Created by **[Diego Marinho](https://dmoliveira.github.io/my-cv-public/cv/human/)**.
 
 ## What this includes
 
 - curated launch dataset of Australia-relevant AI/data/ML events
-- event discovery focused on Melbourne and Sydney, with other capitals included
+- event discovery across Australia, including capitals and nearby major hubs
 - city, topic, and upcoming-event views
 - calendar-style browsing plus `.ics` export
 - static site ready for **GitHub Pages** from `/docs`
