@@ -1,8 +1,8 @@
 {
   "site_name": "AI Events Australia",
-  "updated_at": "2026-04-16T22:38:08Z",
-  "event_count": 89,
-  "city_count": 6,
+  "updated_at": "2026-04-17T01:56:16Z",
+  "event_count": 103,
+  "city_count": 7,
   "topic_count": 20,
   "featured_cities": [
     "Melbourne",
@@ -11,66 +11,67 @@
   "city_counts": {
     "Melbourne": 32,
     "Sydney": 25,
-    "Adelaide": 2,
+    "Adelaide": 8,
     "Brisbane": 27,
-    "Canberra": 2,
-    "Hobart": 1
+    "Canberra": 6,
+    "Hobart": 3,
+    "Gold Coast": 2
   },
   "topic_counts": {
     "machine-learning": 1,
-    "data-science": 20,
+    "data-science": 32,
     "generative-ai": 22,
     "ai-engineering": 1,
-    "python": 7,
-    "computer-science": 10,
+    "python": 10,
+    "computer-science": 11,
     "data-engineering": 2,
     "cloud": 1,
-    "ai": 62,
-    "networking": 7,
-    "health-ai": 11,
+    "ai": 64,
+    "networking": 8,
+    "health-ai": 14,
     "ethics": 5,
-    "business-ai": 21,
+    "business-ai": 22,
     "databases": 1,
     "agents": 2,
-    "training": 50,
+    "training": 62,
     "creative-ai": 1,
     "governance": 5,
-    "innovation": 21,
+    "innovation": 22,
     "careers": 3
   },
   "source_counts": {
     "Meetup": 8,
-    "Eventbrite": 81
+    "Eventbrite": 95
   },
   "next_event": {
-    "id": "hobart-ethical-ai-governance-2026-04-17",
-    "title": "Ethical AI & Technology Governance Basics \u2013 1 Day Workshop in Hobart",
-    "summary": "Hobart workshop covering ethical AI and technology governance fundamentals.",
+    "id": "brisbane-business-innovation-ai-2026-04-18",
+    "title": "Business Innovation with AI: 1 Day Session in Brisbane",
+    "summary": "Brisbane workshop on business innovation using AI tools and practical workflows.",
     "topics": [
       "ai",
-      "ethics",
-      "governance"
+      "business-ai",
+      "innovation"
     ],
-    "emoji": "\ud83e\udd16\u2696\ufe0f\ud83c\udfdb\ufe0f",
-    "start": "2026-04-17T09:00:00+10:00",
-    "end": "2026-04-17T17:00:00+10:00",
-    "timezone": "Australia/Hobart",
+    "emoji": "\ud83e\udd16\ud83d\udcbc\ud83d\ude80",
+    "start": "2026-04-18T09:00:00+10:00",
+    "end": null,
+    "timezone": "Australia/Brisbane",
     "year": 2026,
-    "city": "Hobart",
-    "state": "TAS",
-    "venue_name": "Hobart venue by organizer contact",
+    "city": "Brisbane",
+    "state": "QLD",
+    "venue_name": "Regus-Brisbane \u2013 Spaces Jubilee Place",
     "format": "in-person",
     "organizer": "Eventbrite organizer",
     "source_platform": "Eventbrite",
     "source_tier": "platform",
-    "canonical_url": "https://www.eventbrite.com/e/ethical-ai-technology-governance-basics-1-day-workshop-in-hobart-tickets-1968495490001",
-    "source_url": "https://www.eventbrite.com.au/d/australia--hobart/ai/",
+    "canonical_url": "https://www.eventbrite.com/e/business-innovation-with-ai-1-day-session-in-brisbane-tickets-1979499191368",
+    "source_url": "https://www.eventbrite.com.au/d/australia--brisbane/ai/",
     "discovered_from": [
       "eventbrite"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "status": "upcoming",
-    "end_status": "confirmed",
+    "end_status": "unknown",
     "venue_status": "known"
   }
 }
