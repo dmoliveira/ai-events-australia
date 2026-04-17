@@ -510,12 +510,14 @@ function renderTable({ events, meta }) {
   const topicFilter = document.querySelector("#table-topic-filter");
   const formatFilter = document.querySelector("#table-format-filter");
   const sortSelect = document.querySelector("#table-sort");
+  const densitySelect = document.querySelector("#table-density");
   const resetButton = document.querySelector("#table-reset");
   const shareButton = document.querySelector("#table-share");
   const count = document.querySelector("#table-count");
   const summary = document.querySelector("#table-summary");
   const presetButtons = [...document.querySelectorAll(".preset-button")];
-  if (!body || !search || !cityFilter || !topicFilter || !formatFilter || !sortSelect || !resetButton || !shareButton || !count || !summary) return;
+  const table = document.querySelector('#events-table');
+  if (!body || !search || !cityFilter || !topicFilter || !formatFilter || !sortSelect || !densitySelect || !resetButton || !shareButton || !count || !summary || !table) return;
 
   cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
   topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
@@ -523,7 +525,7 @@ function renderTable({ events, meta }) {
     return `${info.emoji} ${info.label}`;
   })}`;
   formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
-  const initial = getUrlState(["q", "city", "topic", "format", "sort", "preset"]);
+  const initial = getUrlState(["q", "city", "topic", "format", "sort", "preset", "density"]);
   const favoritesPresetFromUrl = new URLSearchParams(window.location.search).get('favorites') === '1';
   if (favoritesPresetFromUrl && !initial.preset) initial.preset = 'favorites';
   if (initial.q) search.value = initial.q;
@@ -531,6 +533,7 @@ function renderTable({ events, meta }) {
   if (initial.topic) topicFilter.value = initial.topic;
   if (initial.format) formatFilter.value = initial.format;
   if (initial.sort) sortSelect.value = initial.sort;
+  if (initial.density) densitySelect.value = initial.density;
   if (!initial.topic && isTopicPreset(initial.preset)) topicFilter.value = presetTopicValue(initial.preset);
 
   function draw() {
@@ -539,6 +542,7 @@ function renderTable({ events, meta }) {
     const topic = topicFilter.value;
     const format = formatFilter.value;
     const sort = sortSelect.value;
+    const density = densitySelect.value;
     const activePreset = presetButtons.find((button) => button.classList.contains("is-active"))?.dataset.preset || "";
     const favoritesOnly = activePreset === 'favorites';
     const filtered = sortEvents(events.filter((event) => {
@@ -553,10 +557,11 @@ function renderTable({ events, meta }) {
     count.textContent = `${filtered.length} matching events`;
     summary.textContent = filtered.length ? `Showing ${filtered.length} events sorted by ${sort}.` : "No events match the current filters.";
     body.innerHTML = filtered.map(rowForEvent).join("");
-    updateUrlState({ q, city, topic, format, sort, preset: activePreset, favorites: favoritesOnly ? '1' : '' });
+    table.classList.toggle('is-compact', density === 'compact');
+    updateUrlState({ q, city, topic, format, sort, density, preset: activePreset, favorites: favoritesOnly ? '1' : '' });
   }
 
-  [search, cityFilter, topicFilter, formatFilter, sortSelect].forEach((element) => {
+  [search, cityFilter, topicFilter, formatFilter, sortSelect, densitySelect].forEach((element) => {
     element.addEventListener("input", draw);
     element.addEventListener("change", draw);
   });
@@ -566,6 +571,7 @@ function renderTable({ events, meta }) {
     topicFilter.value = "";
     formatFilter.value = "";
     sortSelect.value = "upcoming";
+    densitySelect.value = 'comfortable';
     setActivePreset(presetButtons, "");
     draw();
   });

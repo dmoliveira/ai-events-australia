@@ -208,6 +208,12 @@ h3 { font-size: 1.1rem; }
 .metric strong { display: block; font-size: 1.7rem; margin-bottom: 6px; }
 .hero-grid { display: grid; gap: 18px; grid-template-columns: 1.8fr 1fr; }
 .hero-grid-home { grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.9fr); align-items: stretch; }
+.hero-home-compact { padding-top: 28px; }
+.hero-home-compact h1 { font-size: clamp(2.4rem, 5.2vw, 4.2rem); }
+.hero-home-compact .hero-copy { max-width: 640px; }
+.hero-home-compact { display: block; }
+.hero-side-rail { display: grid; gap: 18px; align-content: start; }
+.compact-notice { padding: 16px; }
 .grid.cards, .city-highlight { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .saved-section.is-hidden { display: none; }
 .hero-grid-home #next-callout .card,
@@ -311,6 +317,10 @@ input[type="search"], select {
 table { width: 100%; border-collapse: separate; border-spacing: 0; }
 th, td { padding: 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { text-align: left; background: var(--panel-solid); }
+#events-table.is-compact th,
+#events-table.is-compact td { padding: 8px 10px; }
+#events-table.is-compact td .muted { font-size: .84rem; }
+#events-table.is-compact .pill { padding: 4px 8px; font-size: .8rem; }
 
 .preset-bar {
   display: flex;
