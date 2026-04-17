@@ -1,1 +1,97 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AI Events Australia</title><link rel="stylesheet" href="./assets/style.css"></head><body data-page="home"><nav class="nav"><div class="shell nav-inner"><div class="brand">🇦🇺 AI Events Australia</div><div class="nav-links"><a href="./index.html">Home</a><a href="./calendar.html">Calendar</a><a href="./cities.html">Cities</a><a href="./topics.html">Topics</a><a href="./methodology.html">Methodology</a></div></div></nav><main class="shell"><section class="hero"><div class="hero-grid"><div class="hero-card"><div class="eyebrow">🤖 AI • 🧠 ML • 📊 Data • ✨ Generative AI</div><h1>Australia’s cool little map of AI and data events.</h1><p class="muted">Curated public directory of 2025–2026 events across Australia, covering capitals and major nearby hubs.</p><div id="stats" class="stats"></div><div class="chips"><span class="chip">🇦🇺 Australia-wide</span><span class="chip">🏙️ Capitals + nearby hubs</span><span class="chip">🗓️ Calendar export</span><span class="chip">🔎 Official-first curation</span></div></div><div id="next-callout"></div></div></section><section><div class="section-header"><h2>⏭️ What comes next</h2><a href="./calendar.html">See full calendar</a></div><div id="next-events" class="grid cards"></div></section><section><div class="section-header"><h2>🏙️ By city</h2><a href="./cities.html">Open city view</a></div><div id="city-grid" class="city-highlight"></div></section><section><div class="section-header"><h2>🎯 Popular topics</h2><a href="./topics.html">Open topic view</a></div><div id="topic-grid" class="grid cards"></div></section><section><div class="notice"><h2>🗓️ Calendar export</h2><p class="muted">Grab the combined calendar file for the current curated dataset.</p><div class="actions"><a class="button" href="./data/all-events.ics">⬇️ Download .ics</a></div></div></section></main><footer class="shell footer"><div class="footer-inner"><span class="muted small">Official-first curated dataset for Australian AI, ML, and data events.</span><a href="https://github.com/dmoliveira/ai-events-australia">GitHub repo</a></div></footer><script src="./assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Events Australia</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body data-page="home">
+    <div class="topbar-shell">
+      <div class="topbar">
+        <a class="author-link" href="https://dmoliveira.github.io/my-cv-public/cv/human/" target="_blank" rel="noreferrer">Made by <strong>Diego Marinho</strong></a>
+        <nav class="topbar-nav">
+          <a href="./index.html">Home</a>
+          <a href="./calendar.html">Calendar</a>
+          <a href="./map.html">Map</a>
+          <a href="./table.html">Table</a>
+          <a href="./cities.html">Cities</a>
+          <a href="./topics.html">Topics</a>
+          <a href="./methodology.html">Methodology</a>
+        </nav>
+        <div class="theme-toggle" role="group" aria-label="Theme selector">
+          <button data-theme-option="auto" class="theme-button">Auto</button>
+          <button data-theme-option="light" class="theme-button">Light</button>
+          <button data-theme-option="dark" class="theme-button">Dark</button>
+        </div>
+      </div>
+    </div>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-card hero-copy">
+            <div class="eyebrow">🤖 AI • 🧠 ML • 📊 Data • ✨ Generative AI</div>
+            <h1>Australia’s cool little map of AI and data events.</h1>
+            <p class="muted">Curated public directory of 2025–2026 events across Australia, covering capitals and major nearby hubs.</p>
+            <div id="stats" class="stats"></div>
+            <div class="chips">
+              <span class="chip">🇦🇺 Australia-wide</span>
+              <span class="chip">🗺️ Map view</span>
+              <span class="chip">📋 Table view</span>
+              <span class="chip">🗓️ Calendar export</span>
+            </div>
+          </div>
+          <div id="next-callout"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>⏭️ What comes next</h2>
+          <a class="top-link" href="./calendar.html">See full calendar</a>
+        </div>
+        <div id="next-events" class="grid cards"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>🗺️ Explore the map</h2>
+          <a class="top-link" href="./map.html">Open map view</a>
+        </div>
+        <div class="notice">
+          <p class="muted">Use the map to explore event clusters across Australia, then jump into table, city, or calendar views for detail.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>🏙️ By city</h2>
+          <a class="top-link" href="./cities.html">Open city view</a>
+        </div>
+        <div id="city-grid" class="city-highlight"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>🎯 Popular topics</h2>
+          <a class="top-link" href="./topics.html">Open topic view</a>
+        </div>
+        <div id="topic-grid" class="grid cards"></div>
+      </section>
+
+      <section>
+        <div class="notice">
+          <h2>🗓️ Calendar export</h2>
+          <p class="muted">Grab the combined calendar file for the current curated dataset.</p>
+          <div class="actions">
+            <a class="button" href="./data/all-events.ics">⬇️ Download .ics</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="shell footer">
+      <div class="muted small">Official-first curated dataset for Australian AI, ML, and data events.</div>
+    </footer>
+    <script src="./assets/app.js"></script>
+  </body>
+  </html>
