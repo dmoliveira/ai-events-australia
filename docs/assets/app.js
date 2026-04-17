@@ -40,6 +40,34 @@ function syncTopbarOffset() {
   document.documentElement.style.setProperty("--topbar-offset", `${height}px`);
 }
 
+function initActiveNav() {
+  const current = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.topbar-nav a').forEach((link) => {
+    const href = link.getAttribute('href') || '';
+    const target = href.replace('./', '') || 'index.html';
+    link.classList.toggle('is-active', target === current);
+  });
+}
+
+function ensureToast() {
+  let toast = document.querySelector('#ui-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'ui-toast';
+    toast.className = 'toast';
+    document.body.appendChild(toast);
+  }
+  return toast;
+}
+
+function showToast(message) {
+  const toast = ensureToast();
+  toast.textContent = message;
+  toast.classList.add('is-visible');
+  clearTimeout(showToast._timer);
+  showToast._timer = setTimeout(() => toast.classList.remove('is-visible'), 1400);
+}
+
 function applyTheme(theme) {
   const root = document.documentElement;
   const resolved = theme === "auto"
@@ -153,15 +181,20 @@ function updateUrlState(state) {
 }
 
 function copyCurrentUrl(button) {
+  const previous = button.textContent;
   const done = () => {
-    const previous = button.textContent;
     button.textContent = "Copied";
+    showToast('Shareable link copied');
     setTimeout(() => { button.textContent = previous; }, 1200);
   };
+  const fail = () => {
+    button.textContent = previous;
+    showToast('Copy failed — copy from address bar');
+  };
   if (navigator.clipboard?.writeText) {
-    navigator.clipboard.writeText(window.location.href).then(done);
+    navigator.clipboard.writeText(window.location.href).then(done).catch(fail);
   } else {
-    done();
+    fail();
   }
 }
 
@@ -491,6 +524,7 @@ function renderMap({ events, meta }) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   syncTopbarOffset();
+  initActiveNav();
   initTheme();
   const data = await loadData();
   const page = document.body.dataset.page;
