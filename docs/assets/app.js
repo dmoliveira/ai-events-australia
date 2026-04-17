@@ -132,6 +132,71 @@ function sortEvents(events, sortBy) {
   }
 }
 
+function getUrlState(keys) {
+  const params = new URLSearchParams(window.location.search);
+  const state = {};
+  keys.forEach((key) => {
+    const value = params.get(key);
+    if (value) state[key] = value;
+  });
+  return state;
+}
+
+function updateUrlState(state) {
+  const params = new URLSearchParams(window.location.search);
+  Object.entries(state).forEach(([key, value]) => {
+    if (value) params.set(key, value);
+    else params.delete(key);
+  });
+  const next = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ""}`;
+  window.history.replaceState({}, "", next);
+}
+
+function copyCurrentUrl(button) {
+  const done = () => {
+    const previous = button.textContent;
+    button.textContent = "Copied";
+    setTimeout(() => { button.textContent = previous; }, 1200);
+  };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(window.location.href).then(done);
+  } else {
+    done();
+  }
+}
+
+function withinPreset(event, preset) {
+  const now = new Date();
+  const start = new Date(event.start);
+  if (preset === "week") {
+    const diff = (start - now) / (1000 * 60 * 60 * 24);
+    return diff >= 0 && diff <= 7;
+  }
+  if (preset === "month") {
+    return start.getFullYear() === now.getFullYear() && start.getMonth() === now.getMonth();
+  }
+  if (preset === "30days") {
+    const diff = (start - now) / (1000 * 60 * 60 * 24);
+    return diff >= 0 && diff <= 30;
+  }
+  return true;
+}
+
+function presetTopicValue(preset) {
+  if (preset === "ai") return "ai";
+  if (preset === "genai") return "generative-ai";
+  if (preset === "datascience") return "data-science";
+  return "";
+}
+
+function isTopicPreset(preset) {
+  return ["ai", "genai", "datascience"].includes(preset);
+}
+
+function setActivePreset(buttons, activePreset) {
+  buttons.forEach((button) => button.classList.toggle("is-active", button.dataset.preset === activePreset));
+}
+
 function renderHome({ events, meta }) {
   const now = new Date();
   const upcomingEvents = events.filter((event) => event.status === "upcoming" && new Date(event.start) >= now);
@@ -219,9 +284,11 @@ function renderTable({ events, meta }) {
   const formatFilter = document.querySelector("#table-format-filter");
   const sortSelect = document.querySelector("#table-sort");
   const resetButton = document.querySelector("#table-reset");
+  const shareButton = document.querySelector("#table-share");
   const count = document.querySelector("#table-count");
   const summary = document.querySelector("#table-summary");
-  if (!body || !search || !cityFilter || !topicFilter || !formatFilter || !sortSelect || !resetButton || !count || !summary) return;
+  const presetButtons = [...document.querySelectorAll(".preset-button")];
+  if (!body || !search || !cityFilter || !topicFilter || !formatFilter || !sortSelect || !resetButton || !shareButton || !count || !summary) return;
 
   cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
   topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
@@ -229,6 +296,13 @@ function renderTable({ events, meta }) {
     return `${info.emoji} ${info.label}`;
   })}`;
   formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
+  const initial = getUrlState(["q", "city", "topic", "format", "sort", "preset"]);
+  if (initial.q) search.value = initial.q;
+  if (initial.city) cityFilter.value = initial.city;
+  if (initial.topic) topicFilter.value = initial.topic;
+  if (initial.format) formatFilter.value = initial.format;
+  if (initial.sort) sortSelect.value = initial.sort;
+  if (!initial.topic && isTopicPreset(initial.preset)) topicFilter.value = presetTopicValue(initial.preset);
 
   function draw() {
     const q = search.value.trim().toLowerCase();
@@ -236,16 +310,19 @@ function renderTable({ events, meta }) {
     const topic = topicFilter.value;
     const format = formatFilter.value;
     const sort = sortSelect.value;
+    const activePreset = presetButtons.find((button) => button.classList.contains("is-active"))?.dataset.preset || "";
     const filtered = sortEvents(events.filter((event) => {
       const haystack = [event.title, event.summary, event.city, event.organizer, cleanVenue(event), ...(event.topics || [])].join(" ").toLowerCase();
       return (!q || haystack.includes(q))
         && (!city || event.city === city)
         && (!topic || event.topics.includes(topic))
-        && (!format || event.format === format);
+        && (!format || event.format === format)
+        && (!activePreset || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic);
     }), sort);
     count.textContent = `${filtered.length} matching events`;
     summary.textContent = filtered.length ? `Showing ${filtered.length} events sorted by ${sort}.` : "No events match the current filters.";
     body.innerHTML = filtered.map(rowForEvent).join("");
+    updateUrlState({ q, city, topic, format, sort, preset: activePreset });
   }
 
   [search, cityFilter, topicFilter, formatFilter, sortSelect].forEach((element) => {
@@ -258,8 +335,24 @@ function renderTable({ events, meta }) {
     topicFilter.value = "";
     formatFilter.value = "";
     sortSelect.value = "upcoming";
+    setActivePreset(presetButtons, "");
     draw();
   });
+  shareButton.addEventListener("click", () => copyCurrentUrl(shareButton));
+  presetButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.dataset.preset;
+      const isActive = button.classList.contains("is-active");
+      if (isTopicPreset(preset) && isActive) {
+        topicFilter.value = "";
+      } else if (isTopicPreset(preset)) {
+        topicFilter.value = presetTopicValue(preset);
+      }
+      setActivePreset(presetButtons, isActive ? "" : preset);
+      draw();
+    });
+  });
+  if (initial.preset) setActivePreset(presetButtons, initial.preset);
   draw();
 }
 
@@ -306,8 +399,10 @@ function renderMap({ events, meta }) {
   const topicFilter = document.querySelector("#map-topic-filter");
   const formatFilter = document.querySelector("#map-format-filter");
   const resetButton = document.querySelector("#map-reset");
+  const shareButton = document.querySelector("#map-share");
   const preview = document.querySelector("#map-preview");
-  if (!shell || typeof L === "undefined" || !count || !cityFilter || !topicFilter || !formatFilter || !resetButton || !preview) return;
+  const presetButtons = [...document.querySelectorAll(".map-preset-button")];
+  if (!shell || typeof L === "undefined" || !count || !cityFilter || !topicFilter || !formatFilter || !resetButton || !shareButton || !preview) return;
 
   cityFilter.innerHTML = `<option value="">All cities</option>${buildFilterOptions(Object.keys(meta.city_counts))}`;
   topicFilter.innerHTML = `<option value="">All topics</option>${buildFilterOptions(Object.keys(meta.topic_counts), (topic) => {
@@ -315,6 +410,11 @@ function renderMap({ events, meta }) {
     return `${info.emoji} ${info.label}`;
   })}`;
   formatFilter.innerHTML = `<option value="">All formats</option>${buildFilterOptions([...new Set(events.map((event) => event.format))])}`;
+  const initial = getUrlState(["mapCity", "mapTopic", "mapFormat", "mapPreset"]);
+  if (initial.mapCity) cityFilter.value = initial.mapCity;
+  if (initial.mapTopic) topicFilter.value = initial.mapTopic;
+  if (initial.mapFormat) formatFilter.value = initial.mapFormat;
+  if (!initial.mapTopic && isTopicPreset(initial.mapPreset)) topicFilter.value = presetTopicValue(initial.mapPreset);
 
   const points = buildMapPoints(events);
   const map = L.map("events-map", { scrollWheelZoom: true }).setView([-26.5, 134.0], 4);
@@ -341,7 +441,8 @@ function renderMap({ events, meta }) {
     const city = cityFilter.value;
     const topic = topicFilter.value;
     const format = formatFilter.value;
-    const filtered = points.filter((event) => (!city || event.city === city) && (!topic || event.topics.includes(topic)) && (!format || event.format === format));
+    const activePreset = presetButtons.find((button) => button.classList.contains("is-active"))?.dataset.preset || "";
+    const filtered = points.filter((event) => (!city || event.city === city) && (!topic || event.topics.includes(topic)) && (!format || event.format === format) && (!activePreset || withinPreset(event, activePreset) || presetTopicValue(activePreset) === topic));
     clusterLayer.clearLayers();
     filtered.forEach((event) => {
       const marker = L.marker([event.lat, event.lng], { icon: mapMarkerIcon(event) });
@@ -356,6 +457,7 @@ function renderMap({ events, meta }) {
     } else {
       map.setView([-26.5, 134.0], 4);
     }
+    updateUrlState({ mapCity: city, mapTopic: topic, mapFormat: format, mapPreset: activePreset });
   }
 
   [cityFilter, topicFilter, formatFilter].forEach((element) => {
@@ -365,8 +467,24 @@ function renderMap({ events, meta }) {
     cityFilter.value = "";
     topicFilter.value = "";
     formatFilter.value = "";
+    setActivePreset(presetButtons, "");
     draw();
   });
+  shareButton.addEventListener("click", () => copyCurrentUrl(shareButton));
+  presetButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const preset = button.dataset.preset;
+      const isActive = button.classList.contains("is-active");
+      if (isTopicPreset(preset) && isActive) {
+        topicFilter.value = "";
+      } else if (isTopicPreset(preset)) {
+        topicFilter.value = presetTopicValue(preset);
+      }
+      setActivePreset(presetButtons, isActive ? "" : preset);
+      draw();
+    });
+  });
+  if (initial.mapPreset) setActivePreset(presetButtons, initial.mapPreset);
 
   draw();
 }
