@@ -484,6 +484,17 @@ th {
   .controls-map {
     gap: 10px;
   }
+  .quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .quick-links .button {
+    justify-content: center;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: .86rem;
+  }
   .sticky-controls {
     padding: 10px;
     border-radius: 14px;
@@ -495,6 +506,18 @@ th {
   .preset-bar {
     gap: 8px;
     margin: 10px 0 4px;
+  }
+  .city-highlight,
+  #topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .city-highlight .card,
+  #topic-grid .card {
+    min-height: 0;
+  }
+  .city-highlight .card h3,
+  #topic-grid .card h3 {
+    font-size: .98rem;
   }
   .preset-bar .button,
   .controls .button,
